@@ -1,0 +1,3144 @@
+"","STNAME","CTYNAME","POPESTIMATE2020"
+"1","Alabama","Autauga",56145
+"2","Alabama","Baldwin",229287
+"3","Alabama","Barbour",24589
+"4","Alabama","Bibb",22136
+"5","Alabama","Blount",57879
+"6","Alabama","Bullock",9976
+"7","Alabama","Butler",19504
+"8","Alabama","Calhoun",113469
+"9","Alabama","Chambers",32865
+"10","Alabama","Cherokee",26294
+"11","Alabama","Chilton",44397
+"12","Alabama","Choctaw",12418
+"13","Alabama","Clarke",23291
+"14","Alabama","Clay",13112
+"15","Alabama","Cleburne",14967
+"16","Alabama","Coffee",53230
+"17","Alabama","Colbert",55411
+"18","Alabama","Conecuh",11851
+"19","Alabama","Coosa",10650
+"20","Alabama","Covington",36930
+"21","Alabama","Crenshaw",13681
+"22","Alabama","Cullman",84515
+"23","Alabama","Dale",48959
+"24","Alabama","Dallas",36098
+"25","Alabama","DeKalb",71658
+"26","Alabama","Elmore",82158
+"27","Alabama","Escambia",36281
+"28","Alabama","Etowah",102371
+"29","Alabama","Fayette",16241
+"30","Alabama","Franklin",31507
+"31","Alabama","Geneva",26411
+"32","Alabama","Greene",7990
+"33","Alabama","Hale",14670
+"34","Alabama","Henry",17223
+"35","Alabama","Houston",106580
+"36","Alabama","Jackson",51582
+"37","Alabama","Jefferson",655342
+"38","Alabama","Lamar",13764
+"39","Alabama","Lauderdale",93368
+"40","Alabama","Lawrence",32857
+"41","Alabama","Lee",166831
+"42","Alabama","Limestone",102228
+"43","Alabama","Lowndes",9641
+"44","Alabama","Macon",17895
+"45","Alabama","Madison",379453
+"46","Alabama","Marengo",18733
+"47","Alabama","Marion",29703
+"48","Alabama","Marshall",96990
+"49","Alabama","Mobile",412716
+"50","Alabama","Monroe",20459
+"51","Alabama","Montgomery",224639
+"52","Alabama","Morgan",119883
+"53","Alabama","Perry",8687
+"54","Alabama","Pickens",19793
+"55","Alabama","Pike",32966
+"56","Alabama","Randolph",22920
+"57","Alabama","Russell",58237
+"58","Alabama","St",90739
+"59","Alabama","Shelby",221428
+"60","Alabama","Sumter",12225
+"61","Alabama","Talladega",79985
+"62","Alabama","Tallapoosa",40133
+"63","Alabama","Tuscaloosa",210758
+"64","Alabama","Walker",63143
+"65","Alabama","Washington",15976
+"66","Alabama","Wilcox",10206
+"67","Alabama","Winston",23508
+"68","Alaska","Aleutians",3401
+"69","Alaska","Aleutians",5680
+"70","Alaska","Anchorage",287095
+"71","Alaska","Bethel",18437
+"72","Alaska","Bristol",788
+"73","Alaska","Chugach",6427
+"74","Alaska","Copper",2919
+"75","Alaska","Denali",2081
+"76","Alaska","Dillingham",4833
+"77","Alaska","Fairbanks",95651
+"78","Alaska","Haines",2614
+"79","Alaska","Hoonah",2141
+"80","Alaska","Juneau",31849
+"81","Alaska","Kenai",59414
+"82","Alaska","Ketchikan",13747
+"83","Alaska","Kodiak",12992
+"84","Alaska","Kusilvak",8328
+"85","Alaska","Lake",1493
+"86","Alaska","Matanuska",110213
+"87","Alaska","Nome",9909
+"88","Alaska","North",9294
+"89","Alaska","Northwest",7644
+"90","Alaska","Petersburg",3296
+"91","Alaska","Prince",6147
+"92","Alaska","Sitka",8405
+"93","Alaska","Skagway",1179
+"94","Alaska","Southeast",6957
+"95","Alaska","Wrangell",2510
+"96","Alaska","Yakutat",637
+"97","Alaska","Yukon",5077
+"98","Arizona","Apache",71875
+"99","Arizona","Cochise",127450
+"100","Arizona","Coconino",142481
+"101","Arizona","Gila",54303
+"102","Arizona","Graham",39211
+"103","Arizona","Greenlee",9341
+"104","Arizona","La",21480
+"105","Arizona","Maricopa",4579081
+"106","Arizona","Mohave",217206
+"107","Arizona","Navajo",112112
+"108","Arizona","Pima",1061175
+"109","Arizona","Pinal",480828
+"110","Arizona","Santa",46808
+"111","Arizona","Yavapai",240226
+"112","Arizona","Yuma",217824
+"113","Arkansas","Arkansas",17383
+"114","Arkansas","Ashley",19339
+"115","Arkansas","Baxter",42242
+"116","Arkansas","Benton",288774
+"117","Arkansas","Boone",37625
+"118","Arkansas","Bradley",10639
+"119","Arkansas","Calhoun",5113
+"120","Arkansas","Carroll",28276
+"121","Arkansas","Chicot",9924
+"122","Arkansas","Clark",22103
+"123","Arkansas","Clay",14375
+"124","Arkansas","Cleburne",24935
+"125","Arkansas","Cleveland",7957
+"126","Arkansas","Columbia",23331
+"127","Arkansas","Conway",21037
+"128","Arkansas","Craighead",112245
+"129","Arkansas","Crawford",63409
+"130","Arkansas","Crittenden",47616
+"131","Arkansas","Cross",16142
+"132","Arkansas","Dallas",6802
+"133","Arkansas","Desha",11110
+"134","Arkansas","Drew",17977
+"135","Arkansas","Faulkner",126919
+"136","Arkansas","Franklin",17897
+"137","Arkansas","Fulton",12381
+"138","Arkansas","Garland",99789
+"139","Arkansas","Grant",18449
+"140","Arkansas","Greene",45597
+"141","Arkansas","Hempstead",21253
+"142","Arkansas","Hot",33787
+"143","Arkansas","Howard",13109
+"144","Arkansas","Independence",37757
+"145","Arkansas","Izard",13613
+"146","Arkansas","Jackson",16636
+"147","Arkansas","Jefferson",65377
+"148","Arkansas","Johnson",26513
+"149","Arkansas","Lafayette",6596
+"150","Arkansas","Lawrence",16410
+"151","Arkansas","Lee",8513
+"152","Arkansas","Lincoln",12944
+"153","Arkansas","Little",12180
+"154","Arkansas","Logan",21410
+"155","Arkansas","Lonoke",73921
+"156","Arkansas","Madison",16644
+"157","Arkansas","Marion",16790
+"158","Arkansas","Miller",43177
+"159","Arkansas","Mississippi",40066
+"160","Arkansas","Monroe",6584
+"161","Arkansas","Montgomery",9006
+"162","Arkansas","Nevada",8099
+"163","Arkansas","Newton",7602
+"164","Arkansas","Ouachita",23167
+"165","Arkansas","Perry",10327
+"166","Arkansas","Phillips",17299
+"167","Arkansas","Pike",10643
+"168","Arkansas","Poinsett",23283
+"169","Arkansas","Polk",19707
+"170","Arkansas","Pope",64334
+"171","Arkansas","Prairie",7966
+"172","Arkansas","Pulaski",392980
+"173","Arkansas","Randolph",18247
+"174","Arkansas","St",24682
+"175","Arkansas","Saline",123968
+"176","Arkansas","Scott",10164
+"177","Arkansas","Searcy",7842
+"178","Arkansas","Sebastian",127590
+"179","Arkansas","Sevier",16702
+"180","Arkansas","Sharp",17424
+"181","Arkansas","Stone",12674
+"182","Arkansas","Union",38219
+"183","Arkansas","Van",16541
+"184","Arkansas","Washington",243216
+"185","Arkansas","White",78729
+"186","Arkansas","Woodruff",6264
+"187","Arkansas","Yell",21181
+"188","California","Alameda",1662323
+"189","California","Alpine",1119
+"190","California","Amador",40083
+"191","California","Butte",212744
+"192","California","Calaveras",46308
+"193","California","Colusa",21558
+"194","California","Contra",1152333
+"195","California","Del",27968
+"196","California","El",192925
+"197","California","Fresno",1000918
+"198","California","Glenn",28283
+"199","California","Humboldt",134977
+"200","California","Imperial",180267
+"201","California","Inyo",18046
+"202","California","Kern",901362
+"203","California","Kings",152692
+"204","California","Lake",64479
+"205","California","Lassen",30016
+"206","California","Los",9943046
+"207","California","Madera",157761
+"208","California","Marin",257332
+"209","California","Mariposa",17160
+"210","California","Mendocino",86061
+"211","California","Merced",279252
+"212","California","Modoc",8763
+"213","California","Mono",14534
+"214","California","Monterey",430906
+"215","California","Napa",135965
+"216","California","Nevada",99606
+"217","California","Orange",3166857
+"218","California","Placer",402950
+"219","California","Plumas",18967
+"220","California","Riverside",2489188
+"221","California","Sacramento",1559146
+"222","California","San",64055
+"223","California","San",2189183
+"224","California","San",3332427
+"225","California","San",866606
+"226","California","San",767967
+"227","California","San",282249
+"228","California","San",758308
+"229","California","Santa",444766
+"230","California","Santa",1907105
+"231","California","Santa",269925
+"232","California","Shasta",179027
+"233","California","Sierra",2920
+"234","California","Siskiyou",43245
+"235","California","Solano",446935
+"236","California","Sonoma",489819
+"237","California","Stanislaus",550081
+"238","California","Sutter",96385
+"239","California","Tehama",64494
+"240","California","Trinity",12216
+"241","California","Tulare",468680
+"242","California","Tuolumne",54515
+"243","California","Ventura",841387
+"244","California","Yolo",219728
+"245","California","Yuba",80160
+"246","Colorado","Adams",519883
+"247","Colorado","Alamosa",16180
+"248","Colorado","Arapahoe",657452
+"249","Colorado","Archuleta",14196
+"250","Colorado","Baca",3555
+"251","Colorado","Bent",5356
+"252","Colorado","Boulder",327171
+"253","Colorado","Broomfield",72236
+"254","Colorado","Chaffee",20661
+"255","Colorado","Cheyenne",1795
+"256","Colorado","Clear",9586
+"257","Colorado","Conejos",8143
+"258","Colorado","Costilla",3921
+"259","Colorado","Crowley",5696
+"260","Colorado","Custer",5183
+"261","Colorado","Delta",31067
+"262","Colorado","Denver",735538
+"263","Colorado","Dolores",2096
+"264","Colorado","Douglas",360750
+"265","Colorado","Eagle",54929
+"266","Colorado","Elbert",27313
+"267","Colorado","El",728310
+"268","Colorado","Fremont",47867
+"269","Colorado","Garfield",60366
+"270","Colorado","Gilpin",6235
+"271","Colorado","Grand",15794
+"272","Colorado","Gunnison",17593
+"273","Colorado","Hinsdale",808
+"274","Colorado","Huerfano",6883
+"275","Colorado","Jackson",1389
+"276","Colorado","Jefferson",583283
+"277","Colorado","Kiowa",1458
+"278","Colorado","Kit",7121
+"279","Colorado","Lake",7987
+"280","Colorado","La",56564
+"281","Colorado","Larimer",360428
+"282","Colorado","Las",14420
+"283","Colorado","Lincoln",5680
+"284","Colorado","Logan",21974
+"285","Colorado","Mesa",155603
+"286","Colorado","Mineral",773
+"287","Colorado","Moffat",13144
+"288","Colorado","Montezuma",26408
+"289","Colorado","Montrose",43322
+"290","Colorado","Morgan",28941
+"291","Colorado","Otero",18201
+"292","Colorado","Ouray",5001
+"293","Colorado","Park",18955
+"294","Colorado","Phillips",4367
+"295","Colorado","Pitkin",17894
+"296","Colorado","Prowers",12106
+"297","Colorado","Pueblo",169823
+"298","Colorado","Rio",6342
+"299","Colorado","Rio",11296
+"300","Colorado","Routt",25560
+"301","Colorado","Saguache",6938
+"302","Colorado","San",748
+"303","Colorado","San",8105
+"304","Colorado","Sedgwick",2260
+"305","Colorado","Summit",30631
+"306","Colorado","Teller",25529
+"307","Colorado","Washington",4875
+"308","Colorado","Weld",333983
+"309","Colorado","Yuma",10047
+"310","Connecticut","Fairfield",942426
+"311","Connecticut","Hartford",889226
+"312","Connecticut","Litchfield",179610
+"313","Connecticut","Middlesex",161657
+"314","Connecticut","New",851948
+"315","Connecticut","New",264999
+"316","Connecticut","Tolland",150600
+"317","Connecticut","Windham",116540
+"318","Delaware","Kent",183643
+"319","Delaware","New",561531
+"320","Delaware","Sussex",241635
+"321","District of Columbia","District",712816
+"322","Florida","Alachua",271218
+"323","Florida","Baker",29566
+"324","Florida","Bay",171322
+"325","Florida","Bradford",28593
+"326","Florida","Brevard",608459
+"327","Florida","Broward",1958105
+"328","Florida","Calhoun",14078
+"329","Florida","Charlotte",194711
+"330","Florida","Citrus",153010
+"331","Florida","Clay",221770
+"332","Florida","Collier",392973
+"333","Florida","Columbia",72654
+"334","Florida","DeSoto",38520
+"335","Florida","Dixie",17057
+"336","Florida","Duval",966728
+"337","Florida","Escambia",322364
+"338","Florida","Flagler",118451
+"339","Florida","Franklin",12201
+"340","Florida","Gadsden",45277
+"341","Florida","Gilchrist",18885
+"342","Florida","Glades",14198
+"343","Florida","Gulf",13534
+"344","Florida","Hamilton",14521
+"345","Florida","Hardee",26822
+"346","Florida","Hendry",42813
+"347","Florida","Hernando",198792
+"348","Florida","Highlands",106639
+"349","Florida","Hillsborough",1497957
+"350","Florida","Holmes",19594
+"351","Florida","Indian",162518
+"352","Florida","Jackson",46085
+"353","Florida","Jefferson",14543
+"354","Florida","Lafayette",8482
+"355","Florida","Lake",375492
+"356","Florida","Lee",790767
+"357","Florida","Leon",295460
+"358","Florida","Levy",42214
+"359","Florida","Liberty",8364
+"360","Florida","Madison",18707
+"361","Florida","Manatee",411219
+"362","Florida","Marion",373513
+"363","Florida","Martin",162088
+"364","Florida","Miami",2707303
+"365","Florida","Monroe",73900
+"366","Florida","Nassau",91113
+"367","Florida","Okaloosa",212820
+"368","Florida","Okeechobee",42297
+"369","Florida","Orange",1404396
+"370","Florida","Osceola",385315
+"371","Florida","Palm",1507600
+"372","Florida","Pasco",570412
+"373","Florida","Pinellas",976802
+"374","Florida","Polk",744552
+"375","Florida","Putnam",74815
+"376","Florida","St",278715
+"377","Florida","St",337186
+"378","Florida","Santa",189139
+"379","Florida","Sarasota",443465
+"380","Florida","Seminole",474171
+"381","Florida","Sumter",139018
+"382","Florida","Suwannee",44851
+"383","Florida","Taylor",21600
+"384","Florida","Union",15182
+"385","Florida","Volusia",561497
+"386","Florida","Wakulla",34319
+"387","Florida","Walton",76648
+"388","Florida","Washington",25932
+"389","Georgia","Appling",18325
+"390","Georgia","Atkinson",8393
+"391","Georgia","Bacon",11036
+"392","Georgia","Baker",2971
+"393","Georgia","Baldwin",45099
+"394","Georgia","Banks",19352
+"395","Georgia","Barrow",85588
+"396","Georgia","Bartow",109426
+"397","Georgia","Ben",16614
+"398","Georgia","Berrien",19408
+"399","Georgia","Bibb",152737
+"400","Georgia","Bleckley",12955
+"401","Georgia","Brantley",19202
+"402","Georgia","Brooks",15357
+"403","Georgia","Bryan",40755
+"404","Georgia","Bulloch",80839
+"405","Georgia","Burke",22648
+"406","Georgia","Butts",25426
+"407","Georgia","Calhoun",6231
+"408","Georgia","Camden",55388
+"409","Georgia","Candler",10985
+"410","Georgia","Carroll",121633
+"411","Georgia","Catoosa",67996
+"412","Georgia","Charlton",13430
+"413","Georgia","Chatham",289463
+"414","Georgia","Chattahoochee",10551
+"415","Georgia","Chattooga",24843
+"416","Georgia","Cherokee",265274
+"417","Georgia","Clarke",127795
+"418","Georgia","Clay",2866
+"419","Georgia","Clayton",292646
+"420","Georgia","Clinch",6582
+"421","Georgia","Cobb",762944
+"422","Georgia","Coffee",43218
+"423","Georgia","Colquitt",45542
+"424","Georgia","Columbia",160377
+"425","Georgia","Cook",17291
+"426","Georgia","Coweta",150849
+"427","Georgia","Crawford",12231
+"428","Georgia","Crisp",22034
+"429","Georgia","Dade",16057
+"430","Georgia","Dawson",27113
+"431","Georgia","Decatur",26457
+"432","Georgia","DeKalb",762009
+"433","Georgia","Dodge",20452
+"434","Georgia","Dooly",13174
+"435","Georgia","Dougherty",86477
+"436","Georgia","Douglas",147988
+"437","Georgia","Early",10037
+"438","Georgia","Echols",4002
+"439","Georgia","Effingham",65765
+"440","Georgia","Elbert",19335
+"441","Georgia","Emanuel",22507
+"442","Georgia","Evans",10638
+"443","Georgia","Fannin",26521
+"444","Georgia","Fayette",115821
+"445","Georgia","Floyd",98604
+"446","Georgia","Forsyth",250847
+"447","Georgia","Franklin",23504
+"448","Georgia","Fulton",1077402
+"449","Georgia","Gilmer",31978
+"450","Georgia","Glascock",2984
+"451","Georgia","Glynn",85568
+"452","Georgia","Gordon",58780
+"453","Georgia","Grady",24491
+"454","Georgia","Greene",18837
+"455","Georgia","Gwinnett",942627
+"456","Georgia","Habersham",46047
+"457","Georgia","Hall",206591
+"458","Georgia","Hancock",8494
+"459","Georgia","Haralson",30383
+"460","Georgia","Harris",36080
+"461","Georgia","Hart",26406
+"462","Georgia","Heard",11973
+"463","Georgia","Henry",239139
+"464","Georgia","Houston",160110
+"465","Georgia","Irwin",9387
+"466","Georgia","Jackson",76199
+"467","Georgia","Jasper",14483
+"468","Georgia","Jeff",15213
+"469","Georgia","Jefferson",15267
+"470","Georgia","Jenkins",8746
+"471","Georgia","Johnson",9667
+"472","Georgia","Jones",28787
+"473","Georgia","Lamar",19261
+"474","Georgia","Lanier",10737
+"475","Georgia","Laurens",47512
+"476","Georgia","Lee",30234
+"477","Georgia","Liberty",63004
+"478","Georgia","Lincoln",8031
+"479","Georgia","Long",20171
+"480","Georgia","Lowndes",118268
+"481","Georgia","Lumpkin",34186
+"482","Georgia","McDuffie",21162
+"483","Georgia","McIntosh",14387
+"484","Georgia","Macon",12712
+"485","Georgia","Madison",30457
+"486","Georgia","Marion",8516
+"487","Georgia","Meriwether",21164
+"488","Georgia","Miller",5622
+"489","Georgia","Mitchell",21602
+"490","Georgia","Monroe",28042
+"491","Georgia","Montgomery",9012
+"492","Georgia","Morgan",19636
+"493","Georgia","Murray",40032
+"494","Georgia","Muscogee",196442
+"495","Georgia","Newton",113295
+"496","Georgia","Oconee",41124
+"497","Georgia","Oglethorpe",15383
+"498","Georgia","Paulding",173359
+"499","Georgia","Peach",27950
+"500","Georgia","Pickens",33127
+"501","Georgia","Pierce",19522
+"502","Georgia","Pike",19121
+"503","Georgia","Polk",42840
+"504","Georgia","Pulaski",11191
+"505","Georgia","Putnam",22520
+"506","Georgia","Quitman",2271
+"507","Georgia","Rabun",17273
+"508","Georgia","Randolph",6682
+"509","Georgia","Richmond",202079
+"510","Georgia","Rockdale",90939
+"511","Georgia","Schley",5196
+"512","Georgia","Screven",14012
+"513","Georgia","Seminole",8060
+"514","Georgia","Spalding",67414
+"515","Georgia","Stephens",26107
+"516","Georgia","Stewart",6689
+"517","Georgia","Sumter",29282
+"518","Georgia","Talbot",6143
+"519","Georgia","Taliaferro",1562
+"520","Georgia","Tattnall",25365
+"521","Georgia","Taylor",8074
+"522","Georgia","Telfair",15781
+"523","Georgia","Terrell",8523
+"524","Georgia","Thomas",44372
+"525","Georgia","Tift",40719
+"526","Georgia","Toombs",26973
+"527","Georgia","Towns",12247
+"528","Georgia","Treutlen",6822
+"529","Georgia","Troup",70214
+"530","Georgia","Turner",7882
+"531","Georgia","Twiggs",8103
+"532","Georgia","Union",25358
+"533","Georgia","Upson",26527
+"534","Georgia","Walker",70116
+"535","Georgia","Walton",96875
+"536","Georgia","Ware",35826
+"537","Georgia","Warren",5232
+"538","Georgia","Washington",20150
+"539","Georgia","Wayne",30023
+"540","Georgia","Webster",2595
+"541","Georgia","Wheeler",7751
+"542","Georgia","White",31094
+"543","Georgia","Whitfield",103837
+"544","Georgia","Wilcox",8502
+"545","Georgia","Wilkes",9694
+"546","Georgia","Wilkinson",8812
+"547","Georgia","Worth",19972
+"548","Hawaii","Hawaii",203340
+"549","Hawaii","Honolulu",963826
+"550","Hawaii","Kalawao",87
+"551","Hawaii","Kauai",71851
+"552","Hawaii","Maui",167902
+"553","Idaho","Ada",494399
+"554","Idaho","Adams",4447
+"555","Idaho","Bannock",88795
+"556","Idaho","Bear",6143
+"557","Idaho","Benewah",9430
+"558","Idaho","Bingham",47202
+"559","Idaho","Blaine",23426
+"560","Idaho","Boise",8065
+"561","Idaho","Bonner",46817
+"562","Idaho","Bonneville",122134
+"563","Idaho","Boundary",12656
+"564","Idaho","Butte",2646
+"565","Idaho","Camas",1130
+"566","Idaho","Canyon",237053
+"567","Idaho","Caribou",7123
+"568","Idaho","Cassia",24277
+"569","Idaho","Clark",852
+"570","Idaho","Clearwater",8846
+"571","Idaho","Custer",4249
+"572","Idaho","Elmore",27448
+"573","Idaho","Franklin",14215
+"574","Idaho","Fremont",13218
+"575","Idaho","Gem",18703
+"576","Idaho","Gooding",15618
+"577","Idaho","Idaho",16823
+"578","Idaho","Jefferson",30581
+"579","Idaho","Jerome",24578
+"580","Idaho","Kootenai",170628
+"581","Idaho","Latah",40830
+"582","Idaho","Lemhi",8054
+"583","Idaho","Lewis",3838
+"584","Idaho","Lincoln",5358
+"585","Idaho","Madison",40318
+"586","Idaho","Minidoka",21216
+"587","Idaho","Nez",40755
+"588","Idaho","Oneida",4520
+"589","Idaho","Owyhee",12133
+"590","Idaho","Payette",24771
+"591","Idaho","Power",7643
+"592","Idaho","Shoshone",12911
+"593","Idaho","Teton",12501
+"594","Idaho","Twin",88411
+"595","Idaho","Valley",11792
+"596","Idaho","Washington",10360
+"597","Illinois","Adams",64783
+"598","Illinois","Alexander",5497
+"599","Illinois","Bond",16262
+"600","Illinois","Boone",52777
+"601","Illinois","Brown",6546
+"602","Illinois","Bureau",32303
+"603","Illinois","Calhoun",4616
+"604","Illinois","Carroll",14241
+"605","Illinois","Cass",11925
+"606","Illinois","Champaign",209192
+"607","Illinois","Christian",32075
+"608","Illinois","Clark",15268
+"609","Illinois","Clay",13079
+"610","Illinois","Clinton",37398
+"611","Illinois","Coles",50383
+"612","Illinois","Cook",5108284
+"613","Illinois","Crawford",18512
+"614","Illinois","Cumberland",10649
+"615","Illinois","DeKalb",104491
+"616","Illinois","De",15368
+"617","Illinois","Douglas",19510
+"618","Illinois","DuPage",917481
+"619","Illinois","Edgar",16858
+"620","Illinois","Edwards",6356
+"621","Illinois","Effingham",34065
+"622","Illinois","Fayette",21264
+"623","Illinois","Ford",12949
+"624","Illinois","Franklin",38060
+"625","Illinois","Fulton",33690
+"626","Illinois","Gallatin",4793
+"627","Illinois","Greene",12702
+"628","Illinois","Grundy",50993
+"629","Illinois","Hamilton",8084
+"630","Illinois","Hancock",17422
+"631","Illinois","Hardin",3808
+"632","Illinois","Henderson",6535
+"633","Illinois","Henry",48411
+"634","Illinois","Iroquois",26711
+"635","Illinois","Jackson",56675
+"636","Illinois","Jasper",9465
+"637","Illinois","Jefferson",37235
+"638","Illinois","Jersey",21616
+"639","Illinois","Jo",21239
+"640","Illinois","Johnson",12358
+"641","Illinois","Kane",531010
+"642","Illinois","Kankakee",108594
+"643","Illinois","Kendall",130638
+"644","Illinois","Knox",49053
+"645","Illinois","Lake",693593
+"646","Illinois","LaSalle",107571
+"647","Illinois","Lawrence",15467
+"648","Illinois","Lee",33647
+"649","Illinois","Livingston",35414
+"650","Illinois","Logan",28383
+"651","Illinois","McDonough",29295
+"652","Illinois","McHenry",305888
+"653","Illinois","McLean",171256
+"654","Illinois","Macon",103015
+"655","Illinois","Macoupin",44567
+"656","Illinois","Madison",262635
+"657","Illinois","Marion",37045
+"658","Illinois","Marshall",11309
+"659","Illinois","Mason",13173
+"660","Illinois","Massac",13636
+"661","Illinois","Menard",12068
+"662","Illinois","Mercer",15225
+"663","Illinois","Monroe",34739
+"664","Illinois","Montgomery",28045
+"665","Illinois","Morgan",33400
+"666","Illinois","Moultrie",14347
+"667","Illinois","Ogle",50306
+"668","Illinois","Peoria",177652
+"669","Illinois","Perry",20664
+"670","Illinois","Piatt",16355
+"671","Illinois","Pike",15239
+"672","Illinois","Pope",4142
+"673","Illinois","Pulaski",5201
+"674","Illinois","Putnam",5716
+"675","Illinois","Randolph",31351
+"676","Illinois","Richland",15507
+"677","Illinois","Rock",140907
+"678","Illinois","St",258046
+"679","Illinois","Saline",23182
+"680","Illinois","Sangamon",193882
+"681","Illinois","Schuyler",6738
+"682","Illinois","Scott",4950
+"683","Illinois","Shelby",21299
+"684","Illinois","Stark",5262
+"685","Illinois","Stephenson",43831
+"686","Illinois","Tazewell",130777
+"687","Illinois","Union",16498
+"688","Illinois","Vermilion",74855
+"689","Illinois","Wabash",11190
+"690","Illinois","Warren",16696
+"691","Illinois","Washington",13764
+"692","Illinois","Wayne",16031
+"693","Illinois","White",13364
+"694","Illinois","Whiteside",54656
+"695","Illinois","Will",688726
+"696","Illinois","Williamson",66415
+"697","Illinois","Winnebago",281295
+"698","Illinois","Woodford",38091
+"699","Indiana","Adams",35839
+"700","Indiana","Allen",382187
+"701","Indiana","Bartholomew",84447
+"702","Indiana","Benton",8741
+"703","Indiana","Blackford",11782
+"704","Indiana","Boone",69347
+"705","Indiana","Brown",15112
+"706","Indiana","Carroll",20228
+"707","Indiana","Cass",37388
+"708","Indiana","Clark",119266
+"709","Indiana","Clay",26246
+"710","Indiana","Clinton",32206
+"711","Indiana","Crawford",10629
+"712","Indiana","Daviess",33505
+"713","Indiana","Dearborn",49824
+"714","Indiana","Decatur",26584
+"715","Indiana","DeKalb",43670
+"716","Indiana","Delaware",113454
+"717","Indiana","Dubois",42542
+"718","Indiana","Elkhart",206161
+"719","Indiana","Fayette",22892
+"720","Indiana","Floyd",78936
+"721","Indiana","Fountain",16511
+"722","Indiana","Franklin",22761
+"723","Indiana","Fulton",20018
+"724","Indiana","Gibson",33825
+"725","Indiana","Grant",65225
+"726","Indiana","Greene",32203
+"727","Indiana","Hamilton",344238
+"728","Indiana","Hancock",79553
+"729","Indiana","Harrison",40682
+"730","Indiana","Hendricks",173251
+"731","Indiana","Henry",48033
+"732","Indiana","Howard",82732
+"733","Indiana","Huntington",36395
+"734","Indiana","Jackson",44222
+"735","Indiana","Jasper",33440
+"736","Indiana","Jay",20416
+"737","Indiana","Jefferson",32110
+"738","Indiana","Jennings",27515
+"739","Indiana","Johnson",160607
+"740","Indiana","Knox",36522
+"741","Indiana","Kosciusko",78988
+"742","Indiana","LaGrange",40119
+"743","Indiana","Lake",487536
+"744","Indiana","LaPorte",109663
+"745","Indiana","Lawrence",45496
+"746","Indiana","Madison",129681
+"747","Indiana","Marion",966183
+"748","Indiana","Marshall",46108
+"749","Indiana","Martin",10079
+"750","Indiana","Miami",35328
+"751","Indiana","Monroe",148219
+"752","Indiana","Montgomery",38365
+"753","Indiana","Morgan",70707
+"754","Indiana","Newton",13907
+"755","Indiana","Noble",47832
+"756","Indiana","Ohio",5892
+"757","Indiana","Orange",19651
+"758","Indiana","Owen",20833
+"759","Indiana","Parke",16871
+"760","Indiana","Perry",19154
+"761","Indiana","Pike",12378
+"762","Indiana","Porter",170980
+"763","Indiana","Posey",25275
+"764","Indiana","Pulaski",12388
+"765","Indiana","Putnam",37469
+"766","Indiana","Randolph",24191
+"767","Indiana","Ripley",28448
+"768","Indiana","Rush",16649
+"769","Indiana","St",271484
+"770","Indiana","Scott",23788
+"771","Indiana","Shelby",44871
+"772","Indiana","Spencer",20225
+"773","Indiana","Starke",23049
+"774","Indiana","Steuben",34831
+"775","Indiana","Sullivan",20578
+"776","Indiana","Switzerland",10724
+"777","Indiana","Tippecanoe",196115
+"778","Indiana","Tipton",15227
+"779","Indiana","Union",7119
+"780","Indiana","Vanderburgh",182447
+"781","Indiana","Vermillion",15329
+"782","Indiana","Vigo",106608
+"783","Indiana","Wabash",30784
+"784","Indiana","Warren",8194
+"785","Indiana","Warrick",63269
+"786","Indiana","Washington",28213
+"787","Indiana","Wayne",65778
+"788","Indiana","Wells",28142
+"789","Indiana","White",24165
+"790","Indiana","Whitley",34378
+"791","Iowa","Adair",7059
+"792","Iowa","Adams",3588
+"793","Iowa","Allamakee",13642
+"794","Iowa","Appanoose",12430
+"795","Iowa","Audubon",5481
+"796","Iowa","Benton",25414
+"797","Iowa","Black",130786
+"798","Iowa","Boone",26277
+"799","Iowa","Bremer",25311
+"800","Iowa","Buchanan",21287
+"801","Iowa","Buena",19772
+"802","Iowa","Butler",14333
+"803","Iowa","Calhoun",9473
+"804","Iowa","Carroll",19914
+"805","Iowa","Cass",12817
+"806","Iowa","Cedar",18485
+"807","Iowa","Cerro",42103
+"808","Iowa","Cherokee",11190
+"809","Iowa","Chickasaw",11834
+"810","Iowa","Clarke",9353
+"811","Iowa","Clay",15976
+"812","Iowa","Clayton",17321
+"813","Iowa","Clinton",46392
+"814","Iowa","Crawford",16834
+"815","Iowa","Dallas",96963
+"816","Iowa","Davis",9051
+"817","Iowa","Decatur",7769
+"818","Iowa","Delaware",16937
+"819","Iowa","Des",38708
+"820","Iowa","Dickinson",17549
+"821","Iowa","Dubuque",97590
+"822","Iowa","Emmet",9095
+"823","Iowa","Fayette",19258
+"824","Iowa","Floyd",15480
+"825","Iowa","Franklin",9971
+"826","Iowa","Fremont",6729
+"827","Iowa","Greene",8795
+"828","Iowa","Grundy",12217
+"829","Iowa","Guthrie",10737
+"830","Iowa","Hamilton",14716
+"831","Iowa","Hancock",10507
+"832","Iowa","Hardin",16575
+"833","Iowa","Harrison",13928
+"834","Iowa","Henry",19697
+"835","Iowa","Howard",9176
+"836","Iowa","Humboldt",9473
+"837","Iowa","Ida",6833
+"838","Iowa","Iowa",16138
+"839","Iowa","Jackson",19205
+"840","Iowa","Jasper",37148
+"841","Iowa","Jefferson",18347
+"842","Iowa","Johnson",153740
+"843","Iowa","Jones",20617
+"844","Iowa","Keokuk",10085
+"845","Iowa","Kossuth",14680
+"846","Iowa","Lee",33480
+"847","Iowa","Linn",227854
+"848","Iowa","Louisa",11011
+"849","Iowa","Lucas",8518
+"850","Iowa","Lyon",11756
+"851","Iowa","Madison",16521
+"852","Iowa","Mahaska",22370
+"853","Iowa","Marion",33168
+"854","Iowa","Marshall",39495
+"855","Iowa","Mills",14766
+"856","Iowa","Mitchell",10647
+"857","Iowa","Monona",8598
+"858","Iowa","Monroe",7770
+"859","Iowa","Montgomery",9935
+"860","Iowa","Muscatine",42394
+"861","Iowa","O",13679
+"862","Iowa","Osceola",5987
+"863","Iowa","Page",15073
+"864","Iowa","Palo",8845
+"865","Iowa","Plymouth",25219
+"866","Iowa","Pocahontas",6607
+"867","Iowa","Polk",494281
+"868","Iowa","Pottawattamie",93328
+"869","Iowa","Poweshiek",18381
+"870","Iowa","Ringgold",4801
+"871","Iowa","Sac",9603
+"872","Iowa","Scott",173216
+"873","Iowa","Shelby",11430
+"874","Iowa","Sioux",35043
+"875","Iowa","Story",98237
+"876","Iowa","Tama",16801
+"877","Iowa","Taylor",6092
+"878","Iowa","Union",12157
+"879","Iowa","Van",7069
+"880","Iowa","Wapello",34985
+"881","Iowa","Warren",52265
+"882","Iowa","Washington",21992
+"883","Iowa","Wayne",6415
+"884","Iowa","Webster",35934
+"885","Iowa","Winnebago",10277
+"886","Iowa","Winneshiek",19862
+"887","Iowa","Woodbury",103138
+"888","Iowa","Worth",7359
+"889","Iowa","Wright",12416
+"890","Kansas","Allen",12399
+"891","Kansas","Anderson",7949
+"892","Kansas","Atchison",16015
+"893","Kansas","Barber",4358
+"894","Kansas","Barton",25658
+"895","Kansas","Bourbon",14435
+"896","Kansas","Brown",9482
+"897","Kansas","Butler",66992
+"898","Kansas","Chase",2586
+"899","Kansas","Chautauqua",3230
+"900","Kansas","Cherokee",19681
+"901","Kansas","Cheyenne",2600
+"902","Kansas","Clark",1963
+"903","Kansas","Clay",8025
+"904","Kansas","Cloud",8642
+"905","Kansas","Coffey",8158
+"906","Kansas","Comanche",1690
+"907","Kansas","Cowley",34628
+"908","Kansas","Crawford",38730
+"909","Kansas","Decatur",2776
+"910","Kansas","Dickinson",18266
+"911","Kansas","Doniphan",7496
+"912","Kansas","Douglas",122530
+"913","Kansas","Edwards",2750
+"914","Kansas","Elk",2507
+"915","Kansas","Ellis",28671
+"916","Kansas","Ellsworth",6034
+"917","Kansas","Finney",35917
+"918","Kansas","Ford",33094
+"919","Kansas","Franklin",25703
+"920","Kansas","Geary",32218
+"921","Kansas","Gove",2621
+"922","Kansas","Graham",2389
+"923","Kansas","Grant",7077
+"924","Kansas","Gray",5954
+"925","Kansas","Greeley",1196
+"926","Kansas","Greenwood",5868
+"927","Kansas","Hamilton",2425
+"928","Kansas","Harper",5336
+"929","Kansas","Harvey",34291
+"930","Kansas","Haskell",3923
+"931","Kansas","Hodgeman",1779
+"932","Kansas","Jackson",13171
+"933","Kansas","Jefferson",19032
+"934","Kansas","Jewell",2833
+"935","Kansas","Johnson",607220
+"936","Kansas","Kearny",3745
+"937","Kansas","Kingman",6974
+"938","Kansas","Kiowa",2456
+"939","Kansas","Labette",19586
+"940","Kansas","Lane",1518
+"941","Kansas","Leavenworth",82246
+"942","Kansas","Lincoln",2986
+"943","Kansas","Linn",9654
+"944","Kansas","Logan",2732
+"945","Kansas","Lyon",33045
+"946","Kansas","McPherson",28448
+"947","Kansas","Marion",11652
+"948","Kansas","Marshall",9652
+"949","Kansas","Meade",4029
+"950","Kansas","Miami",34334
+"951","Kansas","Mitchell",5879
+"952","Kansas","Montgomery",31502
+"953","Kansas","Morris",5559
+"954","Kansas","Morton",2538
+"955","Kansas","Nemaha",10121
+"956","Kansas","Neosho",15929
+"957","Kansas","Ness",2768
+"958","Kansas","Norton",5328
+"959","Kansas","Osage",15770
+"960","Kansas","Osborne",3439
+"961","Kansas","Ottawa",5712
+"962","Kansas","Pawnee",6366
+"963","Kansas","Phillips",5181
+"964","Kansas","Pottawatomie",24722
+"965","Kansas","Pratt",9127
+"966","Kansas","Rawlins",2511
+"967","Kansas","Reno",61793
+"968","Kansas","Republic",4536
+"969","Kansas","Rice",9362
+"970","Kansas","Riley",73202
+"971","Kansas","Rooks",4827
+"972","Kansas","Rush",2947
+"973","Kansas","Russell",6804
+"974","Kansas","Saline",53926
+"975","Kansas","Scott",4790
+"976","Kansas","Sedgwick",519907
+"977","Kansas","Seward",21038
+"978","Kansas","Shawnee",175999
+"979","Kansas","Sheridan",2520
+"980","Kansas","Sherman",5777
+"981","Kansas","Smith",3544
+"982","Kansas","Stafford",4046
+"983","Kansas","Stanton",1969
+"984","Kansas","Stevens",5388
+"985","Kansas","Sumner",22578
+"986","Kansas","Thomas",7702
+"987","Kansas","Trego",2758
+"988","Kansas","Wabaunsee",6906
+"989","Kansas","Wallace",1536
+"990","Kansas","Washington",5427
+"991","Kansas","Wichita",2074
+"992","Kansas","Wilson",8362
+"993","Kansas","Woodson",3015
+"994","Kansas","Wyandotte",165265
+"995","Kentucky","Adair",19555
+"996","Kentucky","Allen",21303
+"997","Kentucky","Anderson",22833
+"998","Kentucky","Ballard",7769
+"999","Kentucky","Barren",44300
+"1000","Kentucky","Bath",12481
+"1001","Kentucky","Bell",25482
+"1002","Kentucky","Boone",135396
+"1003","Kentucky","Bourbon",19901
+"1004","Kentucky","Boyd",46516
+"1005","Kentucky","Boyle",30367
+"1006","Kentucky","Bracken",8286
+"1007","Kentucky","Breathitt",12550
+"1008","Kentucky","Breckinridge",20537
+"1009","Kentucky","Bullitt",82182
+"1010","Kentucky","Butler",12703
+"1011","Kentucky","Caldwell",12687
+"1012","Kentucky","Calloway",39300
+"1013","Kentucky","Campbell",94020
+"1014","Kentucky","Carlisle",4692
+"1015","Kentucky","Carroll",10730
+"1016","Kentucky","Carter",26542
+"1017","Kentucky","Casey",16066
+"1018","Kentucky","Christian",71478
+"1019","Kentucky","Clark",36463
+"1020","Kentucky","Clay",19631
+"1021","Kentucky","Clinton",10110
+"1022","Kentucky","Crittenden",8847
+"1023","Kentucky","Cumberland",6523
+"1024","Kentucky","Daviess",101978
+"1025","Kentucky","Edmonson",12235
+"1026","Kentucky","Elliott",7372
+"1027","Kentucky","Estill",14109
+"1028","Kentucky","Fayette",324735
+"1029","Kentucky","Fleming",14603
+"1030","Kentucky","Floyd",34974
+"1031","Kentucky","Franklin",51118
+"1032","Kentucky","Fulton",5952
+"1033","Kentucky","Gallatin",8779
+"1034","Kentucky","Garrard",17719
+"1035","Kentucky","Grant",25387
+"1036","Kentucky","Graves",36818
+"1037","Kentucky","Grayson",26480
+"1038","Kentucky","Green",10995
+"1039","Kentucky","Greenup",34865
+"1040","Kentucky","Hancock",8742
+"1041","Kentucky","Hardin",111309
+"1042","Kentucky","Harlan",25566
+"1043","Kentucky","Harrison",18920
+"1044","Kentucky","Hart",19013
+"1045","Kentucky","Henderson",44740
+"1046","Kentucky","Henry",16067
+"1047","Kentucky","Hickman",4364
+"1048","Kentucky","Hopkins",44662
+"1049","Kentucky","Jackson",13340
+"1050","Kentucky","Jefferson",767452
+"1051","Kentucky","Jessamine",54057
+"1052","Kentucky","Johnson",22002
+"1053","Kentucky","Kenton",167949
+"1054","Kentucky","Knott",14512
+"1055","Kentucky","Knox",31022
+"1056","Kentucky","Larue",14431
+"1057","Kentucky","Laurel",61238
+"1058","Kentucky","Lawrence",15436
+"1059","Kentucky","Lee",7268
+"1060","Kentucky","Leslie",9637
+"1061","Kentucky","Letcher",21213
+"1062","Kentucky","Lewis",13262
+"1063","Kentucky","Lincoln",24466
+"1064","Kentucky","Livingston",9041
+"1065","Kentucky","Logan",27416
+"1066","Kentucky","Lyon",8133
+"1067","Kentucky","McCracken",65644
+"1068","Kentucky","McCreary",17071
+"1069","Kentucky","McLean",9075
+"1070","Kentucky","Madison",94265
+"1071","Kentucky","Magoffin",12017
+"1072","Kentucky","Marion",19314
+"1073","Kentucky","Marshall",31163
+"1074","Kentucky","Martin",11031
+"1075","Kentucky","Mason",17035
+"1076","Kentucky","Meade",28616
+"1077","Kentucky","Menifee",6502
+"1078","Kentucky","Mercer",21889
+"1079","Kentucky","Metcalfe",10058
+"1080","Kentucky","Monroe",10549
+"1081","Kentucky","Montgomery",28186
+"1082","Kentucky","Morgan",13142
+"1083","Kentucky","Muhlenberg",30457
+"1084","Kentucky","Nelson",46450
+"1085","Kentucky","Nicholas",7234
+"1086","Kentucky","Ohio",23899
+"1087","Kentucky","Oldham",66999
+"1088","Kentucky","Owen",11017
+"1089","Kentucky","Owsley",4331
+"1090","Kentucky","Pendleton",14586
+"1091","Kentucky","Perry",25456
+"1092","Kentucky","Pike",57057
+"1093","Kentucky","Powell",12218
+"1094","Kentucky","Pulaski",65530
+"1095","Kentucky","Robertson",2136
+"1096","Kentucky","Rockcastle",16750
+"1097","Kentucky","Rowan",24682
+"1098","Kentucky","Russell",17998
+"1099","Kentucky","Scott",58470
+"1100","Kentucky","Shelby",49611
+"1101","Kentucky","Simpson",18635
+"1102","Kentucky","Spencer",19585
+"1103","Kentucky","Taylor",25707
+"1104","Kentucky","Todd",12448
+"1105","Kentucky","Trigg",14776
+"1106","Kentucky","Trimble",8481
+"1107","Kentucky","Union",14443
+"1108","Kentucky","Warren",134510
+"1109","Kentucky","Washington",12147
+"1110","Kentucky","Wayne",20209
+"1111","Kentucky","Webster",12923
+"1112","Kentucky","Whitley",36451
+"1113","Kentucky","Wolfe",7106
+"1114","Kentucky","Woodford",26765
+"1115","Louisiana","Acadia",61918
+"1116","Louisiana","Allen",25440
+"1117","Louisiana","Ascension",128665
+"1118","Louisiana","Assumption",21621
+"1119","Louisiana","Avoyelles",39966
+"1120","Louisiana","Beauregard",37881
+"1121","Louisiana","Bienville",12983
+"1122","Louisiana","Bossier",127275
+"1123","Louisiana","Caddo",237479
+"1124","Louisiana","Calcasieu",203310
+"1125","Louisiana","Caldwell",9839
+"1126","Louisiana","Cameron",7003
+"1127","Louisiana","Catahoula",9226
+"1128","Louisiana","Claiborne",15508
+"1129","Louisiana","Concordia",18914
+"1130","Louisiana","De",27650
+"1131","Louisiana","East",439729
+"1132","Louisiana","East",6589
+"1133","Louisiana","East",18882
+"1134","Louisiana","Evangeline",33276
+"1135","Louisiana","Franklin",19723
+"1136","Louisiana","Grant",22254
+"1137","Louisiana","Iberia",68991
+"1138","Louisiana","Iberville",32070
+"1139","Louisiana","Jackson",15574
+"1140","Louisiana","Jefferson",432346
+"1141","Louisiana","Jefferson",31208
+"1142","Louisiana","Lafayette",246518
+"1143","Louisiana","Lafourche",97596
+"1144","Louisiana","LaSalle",15021
+"1145","Louisiana","Lincoln",46552
+"1146","Louisiana","Livingston",143737
+"1147","Louisiana","Madison",10635
+"1148","Louisiana","Morehouse",24227
+"1149","Louisiana","Natchitoches",37655
+"1150","Louisiana","Orleans",389476
+"1151","Louisiana","Ouachita",152439
+"1152","Louisiana","Plaquemines",23113
+"1153","Louisiana","Pointe",21529
+"1154","Louisiana","Rapides",128567
+"1155","Louisiana","Red",8286
+"1156","Louisiana","Richland",20014
+"1157","Louisiana","Sabine",23803
+"1158","Louisiana","St",47647
+"1159","Louisiana","St",52987
+"1160","Louisiana","St",10081
+"1161","Louisiana","St",20727
+"1162","Louisiana","St",42516
+"1163","Louisiana","St",81440
+"1164","Louisiana","St",52954
+"1165","Louisiana","St",48330
+"1166","Louisiana","St",263446
+"1167","Louisiana","Tangipahoa",136765
+"1168","Louisiana","Tensas",4178
+"1169","Louisiana","Terrebonne",109859
+"1170","Louisiana","Union",22170
+"1171","Louisiana","Vermilion",59378
+"1172","Louisiana","Vernon",47894
+"1173","Louisiana","Washington",45773
+"1174","Louisiana","Webster",37943
+"1175","Louisiana","West",26792
+"1176","Louisiana","West",10646
+"1177","Louisiana","West",15465
+"1178","Louisiana","Winn",13839
+"1179","Maine","Androscoggin",108547
+"1180","Maine","Aroostook",66804
+"1181","Maine","Cumberland",298111
+"1182","Maine","Franklin",29986
+"1183","Maine","Hancock",55088
+"1184","Maine","Kennebec",122955
+"1185","Maine","Knox",39951
+"1186","Maine","Lincoln",34775
+"1187","Maine","Oxford",58132
+"1188","Maine","Penobscot",151655
+"1189","Maine","Piscataquis",16996
+"1190","Maine","Sagadahoc",36044
+"1191","Maine","Somerset",50635
+"1192","Maine","Waldo",39923
+"1193","Maine","Washington",31473
+"1194","Maine","York",209066
+"1195","Maryland","Allegany",70057
+"1196","Maryland","Anne",582777
+"1197","Maryland","Baltimore",826017
+"1198","Maryland","Calvert",93072
+"1199","Maryland","Caroline",33492
+"1200","Maryland","Carroll",169092
+"1201","Maryland","Cecil",103419
+"1202","Maryland","Charles",164436
+"1203","Maryland","Dorchester",31853
+"1204","Maryland","Frederick",265161
+"1205","Maryland","Garrett",28852
+"1206","Maryland","Harford",256805
+"1207","Maryland","Howard",328200
+"1208","Maryland","Kent",19192
+"1209","Maryland","Montgomery",1051816
+"1210","Maryland","Prince",909612
+"1211","Maryland","Queen",51167
+"1212","Maryland","St",114687
+"1213","Maryland","Somerset",25453
+"1214","Maryland","Talbot",36972
+"1215","Maryland","Washington",151146
+"1216","Maryland","Wicomico",103990
+"1217","Maryland","Worcester",52403
+"1218","Maryland","Baltimore",586131
+"1219","Massachusetts","Barnstable",213164
+"1220","Massachusetts","Berkshire",124571
+"1221","Massachusetts","Bristol",566765
+"1222","Massachusetts","Dukes",17461
+"1223","Massachusetts","Essex",791263
+"1224","Massachusetts","Franklin",70267
+"1225","Massachusetts","Hampden",463986
+"1226","Massachusetts","Hampshire",161401
+"1227","Massachusetts","Middlesex",1609379
+"1228","Massachusetts","Nantucket",11376
+"1229","Massachusetts","Norfolk",709409
+"1230","Massachusetts","Plymouth",523738
+"1231","Massachusetts","Suffolk",801582
+"1232","Massachusetts","Worcester",829212
+"1233","Michigan","Alcona",10505
+"1234","Michigan","Alger",9015
+"1235","Michigan","Allegan",118927
+"1236","Michigan","Alpena",28238
+"1237","Michigan","Antrim",23449
+"1238","Michigan","Arenac",14953
+"1239","Michigan","Baraga",8164
+"1240","Michigan","Barry",62061
+"1241","Michigan","Bay",102387
+"1242","Michigan","Benzie",17852
+"1243","Michigan","Berrien",153025
+"1244","Michigan","Branch",43424
+"1245","Michigan","Calhoun",133580
+"1246","Michigan","Cass",51584
+"1247","Michigan","Charlevoix",26105
+"1248","Michigan","Cheboygan",25365
+"1249","Michigan","Chippewa",36958
+"1250","Michigan","Clare",30771
+"1251","Michigan","Clinton",79753
+"1252","Michigan","Crawford",13981
+"1253","Michigan","Delta",35612
+"1254","Michigan","Dickinson",25112
+"1255","Michigan","Eaton",110148
+"1256","Michigan","Emmet",33342
+"1257","Michigan","Genesee",404794
+"1258","Michigan","Gladwin",25424
+"1259","Michigan","Gogebic",13842
+"1260","Michigan","Grand",93592
+"1261","Michigan","Gratiot",40283
+"1262","Michigan","Hillsdale",45658
+"1263","Michigan","Houghton",35126
+"1264","Michigan","Huron",30653
+"1265","Michigan","Ingham",290609
+"1266","Michigan","Ionia",64553
+"1267","Michigan","Iosco",25140
+"1268","Michigan","Iron",11066
+"1269","Michigan","Isabella",69504
+"1270","Michigan","Jackson",156920
+"1271","Michigan","Kalamazoo",265988
+"1272","Michigan","Kalkaska",18003
+"1273","Michigan","Kent",658708
+"1274","Michigan","Keweenaw",2119
+"1275","Michigan","Lake",11587
+"1276","Michigan","Lapeer",87635
+"1277","Michigan","Leelanau",21743
+"1278","Michigan","Lenawee",97808
+"1279","Michigan","Livingston",192335
+"1280","Michigan","Luce",6126
+"1281","Michigan","Mackinac",10839
+"1282","Michigan","Macomb",870791
+"1283","Michigan","Manistee",24738
+"1284","Michigan","Marquette",65834
+"1285","Michigan","Mason",29164
+"1286","Michigan","Mecosta",43907
+"1287","Michigan","Menominee",22608
+"1288","Michigan","Midland",83441
+"1289","Michigan","Missaukee",15152
+"1290","Michigan","Monroe",150568
+"1291","Michigan","Montcalm",63476
+"1292","Michigan","Montmorency",9337
+"1293","Michigan","Muskegon",173883
+"1294","Michigan","Newaygo",49348
+"1295","Michigan","Oakland",1253459
+"1296","Michigan","Oceana",26819
+"1297","Michigan","Ogemaw",20923
+"1298","Michigan","Ontonagon",5656
+"1299","Michigan","Osceola",23466
+"1300","Michigan","Oscoda",8368
+"1301","Michigan","Otsego",24765
+"1302","Michigan","Ottawa",294635
+"1303","Michigan","Presque",12665
+"1304","Michigan","Roscommon",23986
+"1305","Michigan","Saginaw",189868
+"1306","Michigan","St",159293
+"1307","Michigan","St",60848
+"1308","Michigan","Sanilac",40747
+"1309","Michigan","Schoolcraft",8104
+"1310","Michigan","Shiawassee",67738
+"1311","Michigan","Tuscola",52289
+"1312","Michigan","Van",75474
+"1313","Michigan","Washtenaw",366473
+"1314","Michigan","Wayne",1740623
+"1315","Michigan","Wexford",33743
+"1316","Minnesota","Aitkin",15848
+"1317","Minnesota","Anoka",359921
+"1318","Minnesota","Becker",34456
+"1319","Minnesota","Beltrami",47442
+"1320","Minnesota","Benton",40958
+"1321","Minnesota","Big",4923
+"1322","Minnesota","Blue",68241
+"1323","Minnesota","Brown",24846
+"1324","Minnesota","Carlton",35769
+"1325","Minnesota","Carver",106565
+"1326","Minnesota","Cass",29928
+"1327","Minnesota","Chippewa",11758
+"1328","Minnesota","Chisago",56794
+"1329","Minnesota","Clay",64690
+"1330","Minnesota","Clearwater",9017
+"1331","Minnesota","Cook",5417
+"1332","Minnesota","Cottonwood",11242
+"1333","Minnesota","Crow",65644
+"1334","Minnesota","Dakota",431807
+"1335","Minnesota","Dodge",20987
+"1336","Minnesota","Douglas",38328
+"1337","Minnesota","Faribault",13601
+"1338","Minnesota","Fillmore",21135
+"1339","Minnesota","Freeborn",30364
+"1340","Minnesota","Goodhue",46318
+"1341","Minnesota","Grant",6026
+"1342","Minnesota","Hennepin",1268408
+"1343","Minnesota","Houston",18632
+"1344","Minnesota","Hubbard",21783
+"1345","Minnesota","Isanti",41429
+"1346","Minnesota","Itasca",45268
+"1347","Minnesota","Jackson",9768
+"1348","Minnesota","Kanabec",16416
+"1349","Minnesota","Kandiyohi",43130
+"1350","Minnesota","Kittson",4214
+"1351","Minnesota","Koochiching",12059
+"1352","Minnesota","Lac",6527
+"1353","Minnesota","Lake",10639
+"1354","Minnesota","Lake",3754
+"1355","Minnesota","Le",28741
+"1356","Minnesota","Lincoln",5568
+"1357","Minnesota","Lyon",25271
+"1358","Minnesota","McLeod",35710
+"1359","Minnesota","Mahnomen",5473
+"1360","Minnesota","Marshall",9321
+"1361","Minnesota","Martin",19484
+"1362","Minnesota","Meeker",23341
+"1363","Minnesota","Mille",26146
+"1364","Minnesota","Morrison",33187
+"1365","Minnesota","Mower",40150
+"1366","Minnesota","Murray",8155
+"1367","Minnesota","Nicollet",34482
+"1368","Minnesota","Nobles",21400
+"1369","Minnesota","Norman",6338
+"1370","Minnesota","Olmsted",159298
+"1371","Minnesota","Otter",58741
+"1372","Minnesota","Pennington",13874
+"1373","Minnesota","Pine",29359
+"1374","Minnesota","Pipestone",9121
+"1375","Minnesota","Polk",30900
+"1376","Minnesota","Pope",11277
+"1377","Minnesota","Ramsey",547903
+"1378","Minnesota","Red",4046
+"1379","Minnesota","Redwood",15079
+"1380","Minnesota","Renville",14403
+"1381","Minnesota","Rice",67084
+"1382","Minnesota","Rock",9301
+"1383","Minnesota","Roseau",15117
+"1384","Minnesota","St",198538
+"1385","Minnesota","Scott",150689
+"1386","Minnesota","Sherburne",98811
+"1387","Minnesota","Sibley",14715
+"1388","Minnesota","Stearns",162038
+"1389","Minnesota","Steele",36596
+"1390","Minnesota","Stevens",9765
+"1391","Minnesota","Swift",9176
+"1392","Minnesota","Todd",24732
+"1393","Minnesota","Traverse",3218
+"1394","Minnesota","Wabasha",21642
+"1395","Minnesota","Wadena",13807
+"1396","Minnesota","Waseca",18550
+"1397","Minnesota","Washington",265476
+"1398","Minnesota","Watonwan",10792
+"1399","Minnesota","Wilkin",6161
+"1400","Minnesota","Winona",50485
+"1401","Minnesota","Wright",140249
+"1402","Minnesota","Yellow",9580
+"1403","Mississippi","Adams",30275
+"1404","Mississippi","Alcorn",36889
+"1405","Mississippi","Amite",12205
+"1406","Mississippi","Attala",18004
+"1407","Mississippi","Benton",8351
+"1408","Mississippi","Bolivar",30142
+"1409","Mississippi","Calhoun",14241
+"1410","Mississippi","Carroll",9732
+"1411","Mississippi","Chickasaw",16951
+"1412","Mississippi","Choctaw",8063
+"1413","Mississippi","Claiborne",8911
+"1414","Mississippi","Clarke",15299
+"1415","Mississippi","Clay",19352
+"1416","Mississippi","Coahoma",21564
+"1417","Mississippi","Copiah",27933
+"1418","Mississippi","Covington",18518
+"1419","Mississippi","DeSoto",188275
+"1420","Mississippi","Forrest",75009
+"1421","Mississippi","Franklin",7657
+"1422","Mississippi","George",24425
+"1423","Mississippi","Greene",13477
+"1424","Mississippi","Grenada",20610
+"1425","Mississippi","Hancock",48000
+"1426","Mississippi","Harrison",208801
+"1427","Mississippi","Hinds",227966
+"1428","Mississippi","Holmes",16726
+"1429","Mississippi","Humphreys",7827
+"1430","Mississippi","Issaquena",1220
+"1431","Mississippi","Itawamba",23261
+"1432","Mississippi","Jackson",143802
+"1433","Mississippi","Jasper",16332
+"1434","Mississippi","Jefferson",6997
+"1435","Mississippi","Jefferson",10890
+"1436","Mississippi","Jones",67993
+"1437","Mississippi","Kemper",9521
+"1438","Mississippi","Lafayette",54408
+"1439","Mississippi","Lamar",64165
+"1440","Mississippi","Lauderdale",73751
+"1441","Mississippi","Lawrence",12480
+"1442","Mississippi","Leake",22741
+"1443","Mississippi","Lee",85466
+"1444","Mississippi","Leflore",27854
+"1445","Mississippi","Lincoln",33936
+"1446","Mississippi","Lowndes",58309
+"1447","Mississippi","Madison",106871
+"1448","Mississippi","Marion",24441
+"1449","Mississippi","Marshall",35301
+"1450","Mississippi","Monroe",35123
+"1451","Mississippi","Montgomery",9661
+"1452","Mississippi","Neshoba",28996
+"1453","Mississippi","Newton",20866
+"1454","Mississippi","Noxubee",10236
+"1455","Mississippi","Oktibbeha",49789
+"1456","Mississippi","Panola",33848
+"1457","Mississippi","Pearl",55876
+"1458","Mississippi","Perry",11862
+"1459","Mississippi","Pike",38997
+"1460","Mississippi","Pontotoc",32461
+"1461","Mississippi","Prentiss",25013
+"1462","Mississippi","Quitman",6760
+"1463","Mississippi","Rankin",155975
+"1464","Mississippi","Scott",28061
+"1465","Mississippi","Sharkey",4160
+"1466","Mississippi","Simpson",26629
+"1467","Mississippi","Smith",15779
+"1468","Mississippi","Stone",18360
+"1469","Mississippi","Sunflower",24740
+"1470","Mississippi","Tallahatchie",13707
+"1471","Mississippi","Tate",28539
+"1472","Mississippi","Tippah",21748
+"1473","Mississippi","Tishomingo",19275
+"1474","Mississippi","Tunica",9392
+"1475","Mississippi","Union",28866
+"1476","Mississippi","Walthall",14294
+"1477","Mississippi","Warren",44841
+"1478","Mississippi","Washington",42837
+"1479","Mississippi","Wayne",20317
+"1480","Mississippi","Webster",9676
+"1481","Mississippi","Wilkinson",8351
+"1482","Mississippi","Winston",17845
+"1483","Mississippi","Yalobusha",11982
+"1484","Mississippi","Yazoo",26982
+"1485","Missouri","Adair",25399
+"1486","Missouri","Andrew",17586
+"1487","Missouri","Atchison",5096
+"1488","Missouri","Audrain",24835
+"1489","Missouri","Barry",35818
+"1490","Missouri","Barton",11592
+"1491","Missouri","Bates",16242
+"1492","Missouri","Benton",19627
+"1493","Missouri","Bollinger",12111
+"1494","Missouri","Boone",182991
+"1495","Missouri","Buchanan",86530
+"1496","Missouri","Butler",42178
+"1497","Missouri","Caldwell",9051
+"1498","Missouri","Callaway",44887
+"1499","Missouri","Camden",46414
+"1500","Missouri","Cape",79512
+"1501","Missouri","Carroll",8554
+"1502","Missouri","Carter",5991
+"1503","Missouri","Cass",106806
+"1504","Missouri","Cedar",14322
+"1505","Missouri","Chariton",7360
+"1506","Missouri","Christian",90655
+"1507","Missouri","Clark",6830
+"1508","Missouri","Clay",253463
+"1509","Missouri","Clinton",20553
+"1510","Missouri","Cole",76191
+"1511","Missouri","Cooper",17102
+"1512","Missouri","Crawford",23739
+"1513","Missouri","Dade",7568
+"1514","Missouri","Dallas",17219
+"1515","Missouri","Daviess",8283
+"1516","Missouri","DeKalb",10944
+"1517","Missouri","Dent",15481
+"1518","Missouri","Douglas",13344
+"1519","Missouri","Dunklin",28878
+"1520","Missouri","Franklin",104469
+"1521","Missouri","Gasconade",14566
+"1522","Missouri","Gentry",6484
+"1523","Missouri","Greene",294997
+"1524","Missouri","Grundy",9595
+"1525","Missouri","Harrison",8321
+"1526","Missouri","Henry",22076
+"1527","Missouri","Hickory",9586
+"1528","Missouri","Holt",4232
+"1529","Missouri","Howard",10001
+"1530","Missouri","Howell",40262
+"1531","Missouri","Iron",10098
+"1532","Missouri","Jackson",705925
+"1533","Missouri","Jasper",121648
+"1534","Missouri","Jefferson",226543
+"1535","Missouri","Johnson",54219
+"1536","Missouri","Knox",3940
+"1537","Missouri","Laclede",35895
+"1538","Missouri","Lafayette",33006
+"1539","Missouri","Lawrence",38175
+"1540","Missouri","Lewis",9810
+"1541","Missouri","Lincoln",60119
+"1542","Missouri","Linn",11830
+"1543","Missouri","Livingston",14413
+"1544","Missouri","McDonald",22900
+"1545","Missouri","Macon",15095
+"1546","Missouri","Madison",12113
+"1547","Missouri","Maries",8795
+"1548","Missouri","Marion",28423
+"1549","Missouri","Mercer",3558
+"1550","Missouri","Miller",25791
+"1551","Missouri","Mississippi",12691
+"1552","Missouri","Moniteau",15585
+"1553","Missouri","Monroe",8672
+"1554","Missouri","Montgomery",11294
+"1555","Missouri","Morgan",20716
+"1556","Missouri","New",16693
+"1557","Missouri","Newton",58451
+"1558","Missouri","Nodaway",21743
+"1559","Missouri","Oregon",10411
+"1560","Missouri","Osage",13535
+"1561","Missouri","Ozark",9083
+"1562","Missouri","Pemiscot",15600
+"1563","Missouri","Perry",19194
+"1564","Missouri","Pettis",42490
+"1565","Missouri","Phelps",44414
+"1566","Missouri","Pike",17552
+"1567","Missouri","Platte",106532
+"1568","Missouri","Polk",32490
+"1569","Missouri","Pulaski",52709
+"1570","Missouri","Putnam",4688
+"1571","Missouri","Ralls",10299
+"1572","Missouri","Randolph",24409
+"1573","Missouri","Ray",22915
+"1574","Missouri","Reynolds",6198
+"1575","Missouri","Ripley",13300
+"1576","Missouri","St",406204
+"1577","Missouri","St",9689
+"1578","Missouri","Ste",17924
+"1579","Missouri","St",66485
+"1580","Missouri","St",994020
+"1581","Missouri","Saline",22858
+"1582","Missouri","Schuyler",4534
+"1583","Missouri","Scotland",4871
+"1584","Missouri","Scott",38288
+"1585","Missouri","Shannon",8203
+"1586","Missouri","Shelby",5919
+"1587","Missouri","Stoddard",29001
+"1588","Missouri","Stone",32465
+"1589","Missouri","Sullivan",6033
+"1590","Missouri","Taney",56104
+"1591","Missouri","Texas",25112
+"1592","Missouri","Vernon",20388
+"1593","Missouri","Warren",36594
+"1594","Missouri","Washington",24604
+"1595","Missouri","Wayne",12769
+"1596","Missouri","Webster",39859
+"1597","Missouri","Worth",1953
+"1598","Missouri","Wright",18325
+"1599","Missouri","St",297645
+"1600","Montana","Beaverhead",9483
+"1601","Montana","Big",13063
+"1602","Montana","Blaine",6568
+"1603","Montana","Broadwater",6444
+"1604","Montana","Carbon",10921
+"1605","Montana","Carter",1235
+"1606","Montana","Cascade",81346
+"1607","Montana","Chouteau",5699
+"1608","Montana","Custer",11292
+"1609","Montana","Daniels",1638
+"1610","Montana","Dawson",8555
+"1611","Montana","Deer",9204
+"1612","Montana","Fallon",2826
+"1613","Montana","Fergus",11104
+"1614","Montana","Flathead",105851
+"1615","Montana","Gallatin",116806
+"1616","Montana","Garfield",1268
+"1617","Montana","Glacier",13594
+"1618","Montana","Golden",827
+"1619","Montana","Granite",3317
+"1620","Montana","Hill",16358
+"1621","Montana","Jefferson",12360
+"1622","Montana","Judith",1994
+"1623","Montana","Lake",30986
+"1624","Montana","Lewis",70229
+"1625","Montana","Liberty",2369
+"1626","Montana","Lincoln",20343
+"1627","Montana","McCone",1648
+"1628","Montana","Madison",8959
+"1629","Montana","Meagher",1831
+"1630","Montana","Mineral",4544
+"1631","Montana","Missoula",121630
+"1632","Montana","Musselshell",4669
+"1633","Montana","Park",16760
+"1634","Montana","Petroleum",500
+"1635","Montana","Phillips",3919
+"1636","Montana","Pondera",5782
+"1637","Montana","Powder",1681
+"1638","Montana","Powell",6817
+"1639","Montana","Prairie",1067
+"1640","Montana","Ravalli",45002
+"1641","Montana","Richland",11043
+"1642","Montana","Roosevelt",10964
+"1643","Montana","Rosebud",8836
+"1644","Montana","Sanders",12157
+"1645","Montana","Sheridan",3261
+"1646","Montana","Silver",35180
+"1647","Montana","Stillwater",9888
+"1648","Montana","Sweet",3684
+"1649","Montana","Teton",6249
+"1650","Montana","Toole",4686
+"1651","Montana","Treasure",695
+"1652","Montana","Valley",7359
+"1653","Montana","Wheatland",2157
+"1654","Montana","Wibaux",939
+"1655","Montana","Yellowstone",162990
+"1656","Nebraska","Adams",31321
+"1657","Nebraska","Antelope",6264
+"1658","Nebraska","Arthur",466
+"1659","Nebraska","Banner",786
+"1660","Nebraska","Blaine",457
+"1661","Nebraska","Boone",5096
+"1662","Nebraska","Box",10696
+"1663","Nebraska","Boyd",1860
+"1664","Nebraska","Brown",2981
+"1665","Nebraska","Buffalo",50114
+"1666","Nebraska","Burt",6477
+"1667","Nebraska","Butler",7960
+"1668","Nebraska","Cass",26232
+"1669","Nebraska","Cedar",8414
+"1670","Nebraska","Chase",3840
+"1671","Nebraska","Cherry",5781
+"1672","Nebraska","Cheyenne",9111
+"1673","Nebraska","Clay",6216
+"1674","Nebraska","Colfax",10587
+"1675","Nebraska","Cuming",8798
+"1676","Nebraska","Custer",10626
+"1677","Nebraska","Dakota",20070
+"1678","Nebraska","Dawes",8361
+"1679","Nebraska","Dawson",23510
+"1680","Nebraska","Deuel",1793
+"1681","Nebraska","Dixon",5596
+"1682","Nebraska","Dodge",36222
+"1683","Nebraska","Douglas",574332
+"1684","Nebraska","Dundy",1671
+"1685","Nebraska","Fillmore",5519
+"1686","Nebraska","Franklin",2940
+"1687","Nebraska","Frontier",2587
+"1688","Nebraska","Furnas",4653
+"1689","Nebraska","Gage",21431
+"1690","Nebraska","Garden",1847
+"1691","Nebraska","Garfield",1956
+"1692","Nebraska","Gosper",1986
+"1693","Nebraska","Grant",630
+"1694","Nebraska","Greeley",2319
+"1695","Nebraska","Hall",61028
+"1696","Nebraska","Hamilton",9237
+"1697","Nebraska","Harlan",3311
+"1698","Nebraska","Hayes",916
+"1699","Nebraska","Hitchcock",2773
+"1700","Nebraska","Holt",9956
+"1701","Nebraska","Hooker",647
+"1702","Nebraska","Howard",6488
+"1703","Nebraska","Jefferson",7099
+"1704","Nebraska","Johnson",5057
+"1705","Nebraska","Kearney",6652
+"1706","Nebraska","Keith",7983
+"1707","Nebraska","Keya",759
+"1708","Nebraska","Kimball",3495
+"1709","Nebraska","Knox",8304
+"1710","Nebraska","Lancaster",320650
+"1711","Nebraska","Lincoln",34347
+"1712","Nebraska","Logan",747
+"1713","Nebraska","Loup",650
+"1714","Nebraska","McPherson",474
+"1715","Nebraska","Madison",34813
+"1716","Nebraska","Merrick",7809
+"1717","Nebraska","Morrill",4625
+"1718","Nebraska","Nance",3532
+"1719","Nebraska","Nemaha",7044
+"1720","Nebraska","Nuckolls",4134
+"1721","Nebraska","Otoe",15965
+"1722","Nebraska","Pawnee",2601
+"1723","Nebraska","Perkins",2867
+"1724","Nebraska","Phelps",9006
+"1725","Nebraska","Pierce",7184
+"1726","Nebraska","Platte",33364
+"1727","Nebraska","Polk",5201
+"1728","Nebraska","Red",10627
+"1729","Nebraska","Richardson",7791
+"1730","Nebraska","Rock",1377
+"1731","Nebraska","Saline",13987
+"1732","Nebraska","Sarpy",188856
+"1733","Nebraska","Saunders",21927
+"1734","Nebraska","Scotts",35299
+"1735","Nebraska","Seward",17186
+"1736","Nebraska","Sheridan",5150
+"1737","Nebraska","Sherman",2986
+"1738","Nebraska","Sioux",1200
+"1739","Nebraska","Stanton",5880
+"1740","Nebraska","Thayer",4887
+"1741","Nebraska","Thomas",739
+"1742","Nebraska","Thurston",7220
+"1743","Nebraska","Valley",4103
+"1744","Nebraska","Washington",20901
+"1745","Nebraska","Wayne",9492
+"1746","Nebraska","Webster",3419
+"1747","Nebraska","Wheeler",790
+"1748","Nebraska","York",13511
+"1749","Nevada","Churchill",25363
+"1750","Nevada","Clark",2315963
+"1751","Nevada","Douglas",49088
+"1752","Nevada","Elko",53006
+"1753","Nevada","Esmeralda",886
+"1754","Nevada","Eureka",2065
+"1755","Nevada","Humboldt",16962
+"1756","Nevada","Lander",5514
+"1757","Nevada","Lincoln",5159
+"1758","Nevada","Lyon",58319
+"1759","Nevada","Mineral",4518
+"1760","Nevada","Nye",48054
+"1761","Nevada","Pershing",6573
+"1762","Nevada","Storey",4207
+"1763","Nevada","Washoe",477082
+"1764","Nevada","White",9466
+"1765","Nevada","Carson",56034
+"1766","New Hampshire","Belknap",61551
+"1767","New Hampshire","Carroll",49167
+"1768","New Hampshire","Cheshire",76228
+"1769","New Hampshire","Coos",31174
+"1770","New Hampshire","Grafton",90691
+"1771","New Hampshire","Hillsborough",418735
+"1772","New Hampshire","Merrimack",152622
+"1773","New Hampshire","Rockingham",311307
+"1774","New Hampshire","Strafford",131533
+"1775","New Hampshire","Sullivan",43267
+"1776","New Jersey","Atlantic",262945
+"1777","New Jersey","Bergen",930394
+"1778","New Jersey","Burlington",446596
+"1779","New Jersey","Camden",506809
+"1780","New Jersey","Cape",91546
+"1781","New Jersey","Cumberland",147008
+"1782","New Jersey","Essex",800501
+"1783","New Jersey","Gloucester",293245
+"1784","New Jersey","Hudson",671666
+"1785","New Jersey","Hunterdon",124797
+"1786","New Jersey","Mercer",367239
+"1787","New Jersey","Middlesex",822736
+"1788","New Jersey","Monmouth",618381
+"1789","New Jersey","Morris",491087
+"1790","New Jersey","Ocean",614237
+"1791","New Jersey","Passaic",500382
+"1792","New Jersey","Salem",62451
+"1793","New Jersey","Somerset",329331
+"1794","New Jersey","Sussex",140002
+"1795","New Jersey","Union",555394
+"1796","New Jersey","Warren",105624
+"1797","New Mexico","Bernalillo",681666
+"1798","New Mexico","Catron",3623
+"1799","New Mexico","Chaves",64711
+"1800","New Mexico","Cibola",26354
+"1801","New Mexico","Colfax",11927
+"1802","New Mexico","Curry",48793
+"1803","New Mexico","De",1673
+"1804","New Mexico","Do<f1>a Ana County",221262
+"1805","New Mexico","Eddy",58418
+"1806","New Mexico","Grant",27007
+"1807","New Mexico","Guadalupe",4275
+"1808","New Mexico","Harding",638
+"1809","New Mexico","Hidalgo",4106
+"1810","New Mexico","Lea",71830
+"1811","New Mexico","Lincoln",19939
+"1812","New Mexico","Los",19462
+"1813","New Mexico","Luna",23905
+"1814","New Mexico","McKinley",70824
+"1815","New Mexico","Mora",4478
+"1816","New Mexico","Otero",67967
+"1817","New Mexico","Quay",8197
+"1818","New Mexico","Rio",38521
+"1819","New Mexico","Roosevelt",18350
+"1820","New Mexico","Sandoval",148904
+"1821","New Mexico","San",123312
+"1822","New Mexico","San",27144
+"1823","New Mexico","Santa",151946
+"1824","New Mexico","Sierra",10867
+"1825","New Mexico","Socorro",16541
+"1826","New Mexico","Taos",32593
+"1827","New Mexico","Torrance",15486
+"1828","New Mexico","Union",4026
+"1829","New Mexico","Valencia",77574
+"1830","New York","Albany",303654
+"1831","New York","Allegany",45587
+"1832","New York","Bronx",1401142
+"1833","New York","Broome",189420
+"1834","New York","Cattaraugus",75863
+"1835","New York","Cayuga",76029
+"1836","New York","Chautauqua",126032
+"1837","New York","Chemung",82622
+"1838","New York","Chenango",46730
+"1839","New York","Clinton",79778
+"1840","New York","Columbia",59534
+"1841","New York","Cortland",47173
+"1842","New York","Delaware",43938
+"1843","New York","Dutchess",293293
+"1844","New York","Erie",917241
+"1845","New York","Essex",36891
+"1846","New York","Franklin",49965
+"1847","New York","Fulton",52812
+"1848","New York","Genesee",56994
+"1849","New York","Greene",47177
+"1850","New York","Hamilton",4345
+"1851","New York","Herkimer",60945
+"1852","New York","Jefferson",108095
+"1853","New York","Kings",2538934
+"1854","New York","Lewis",26187
+"1855","New York","Livingston",62398
+"1856","New York","Madison",70478
+"1857","New York","Monroe",740900
+"1858","New York","Montgomery",49170
+"1859","New York","Nassau",1351334
+"1860","New York","New",1611989
+"1861","New York","Niagara",208396
+"1862","New York","Oneida",227346
+"1863","New York","Onondaga",459214
+"1864","New York","Ontario",110091
+"1865","New York","Orange",385234
+"1866","New York","Orleans",39978
+"1867","New York","Oswego",116346
+"1868","New York","Otsego",58701
+"1869","New York","Putnam",98532
+"1870","New York","Queens",2225821
+"1871","New York","Rensselaer",158108
+"1872","New York","Richmond",475327
+"1873","New York","Rockland",326225
+"1874","New York","St",107185
+"1875","New York","Saratoga",230298
+"1876","New York","Schenectady",155358
+"1877","New York","Schoharie",31132
+"1878","New York","Schuyler",17685
+"1879","New York","Seneca",33991
+"1880","New York","Steuben",94657
+"1881","New York","Suffolk",1474273
+"1882","New York","Sullivan",75802
+"1883","New York","Tioga",47904
+"1884","New York","Tompkins",101058
+"1885","New York","Ulster",177716
+"1886","New York","Warren",63756
+"1887","New York","Washington",60606
+"1888","New York","Wayne",89339
+"1889","New York","Westchester",965802
+"1890","New York","Wyoming",39465
+"1891","New York","Yates",24780
+"1892","North Carolina","Alamance",171346
+"1893","North Carolina","Alexander",37441
+"1894","North Carolina","Alleghany",11194
+"1895","North Carolina","Anson",24097
+"1896","North Carolina","Ashe",27166
+"1897","North Carolina","Avery",17571
+"1898","North Carolina","Beaufort",47073
+"1899","North Carolina","Bertie",18712
+"1900","North Carolina","Bladen",32911
+"1901","North Carolina","Brunswick",149039
+"1902","North Carolina","Buncombe",263477
+"1903","North Carolina","Burke",90418
+"1904","North Carolina","Cabarrus",221479
+"1905","North Carolina","Caldwell",82100
+"1906","North Carolina","Camden",10984
+"1907","North Carolina","Carteret",69558
+"1908","North Carolina","Caswell",22443
+"1909","North Carolina","Catawba",160307
+"1910","North Carolina","Chatham",75748
+"1911","North Carolina","Cherokee",29073
+"1912","North Carolina","Chowan",13815
+"1913","North Carolina","Clay",11505
+"1914","North Carolina","Cleveland",99035
+"1915","North Carolina","Columbus",54754
+"1916","North Carolina","Craven",101233
+"1917","North Carolina","Cumberland",336364
+"1918","North Carolina","Currituck",29052
+"1919","North Carolina","Dare",37547
+"1920","North Carolina","Davidson",169234
+"1921","North Carolina","Davie",43286
+"1922","North Carolina","Duplin",58794
+"1923","North Carolina","Durham",327306
+"1924","North Carolina","Edgecombe",50829
+"1925","North Carolina","Forsyth",383843
+"1926","North Carolina","Franklin",71859
+"1927","North Carolina","Gaston",226568
+"1928","North Carolina","Gates",11464
+"1929","North Carolina","Graham",8474
+"1930","North Carolina","Granville",60486
+"1931","North Carolina","Greene",20928
+"1932","North Carolina","Guilford",540521
+"1933","North Carolina","Halifax",49479
+"1934","North Carolina","Harnett",137058
+"1935","North Carolina","Haywood",62972
+"1936","North Carolina","Henderson",118445
+"1937","North Carolina","Hertford",23108
+"1938","North Carolina","Hoke",55830
+"1939","North Carolina","Hyde",4843
+"1940","North Carolina","Iredell",185770
+"1941","North Carolina","Jackson",44033
+"1942","North Carolina","Johnston",216246
+"1943","North Carolina","Jones",9250
+"1944","North Carolina","Lee",62353
+"1945","North Carolina","Lenoir",55720
+"1946","North Carolina","Lincoln",88097
+"1947","North Carolina","McDowell",45782
+"1948","North Carolina","Macon",35994
+"1949","North Carolina","Madison",21740
+"1950","North Carolina","Martin",22178
+"1951","North Carolina","Mecklenburg",1128945
+"1952","North Carolina","Mitchell",14881
+"1953","North Carolina","Montgomery",27238
+"1954","North Carolina","Moore",103352
+"1955","North Carolina","Nash",94859
+"1956","North Carolina","New",236613
+"1957","North Carolina","Northampton",19088
+"1958","North Carolina","Onslow",203943
+"1959","North Carolina","Orange",149077
+"1960","North Carolina","Pamlico",12715
+"1961","North Carolina","Pasquotank",40372
+"1962","North Carolina","Pender",64671
+"1963","North Carolina","Perquimans",13667
+"1964","North Carolina","Person",39925
+"1965","North Carolina","Pitt",182924
+"1966","North Carolina","Polk",21030
+"1967","North Carolina","Randolph",144557
+"1968","North Carolina","Richmond",44332
+"1969","North Carolina","Robeson",129999
+"1970","North Carolina","Rockingham",91285
+"1971","North Carolina","Rowan",142495
+"1972","North Carolina","Rutherford",67076
+"1973","North Carolina","Sampson",63382
+"1974","North Carolina","Scotland",34637
+"1975","North Carolina","Stanly",63239
+"1976","North Carolina","Stokes",45743
+"1977","North Carolina","Surry",71683
+"1978","North Carolina","Swain",14179
+"1979","North Carolina","Transylvania",34498
+"1980","North Carolina","Tyrrell",3774
+"1981","North Carolina","Union",244562
+"1982","North Carolina","Vance",44718
+"1983","North Carolina","Wake",1132271
+"1984","North Carolina","Warren",19522
+"1985","North Carolina","Washington",11485
+"1986","North Carolina","Watauga",56441
+"1987","North Carolina","Wayne",123967
+"1988","North Carolina","Wilkes",68043
+"1989","North Carolina","Wilson",81979
+"1990","North Carolina","Yadkin",37625
+"1991","North Carolina","Yancey",18099
+"1992","North Dakota","Adams",2188
+"1993","North Dakota","Barnes",10402
+"1994","North Dakota","Benson",6762
+"1995","North Dakota","Billings",890
+"1996","North Dakota","Bottineau",6287
+"1997","North Dakota","Bowman",2986
+"1998","North Dakota","Burke",2118
+"1999","North Dakota","Burleigh",96212
+"2000","North Dakota","Cass",183904
+"2001","North Dakota","Cavalier",3713
+"2002","North Dakota","Dickey",4705
+"2003","North Dakota","Divide",2277
+"2004","North Dakota","Dunn",4465
+"2005","North Dakota","Eddy",2179
+"2006","North Dakota","Emmons",3187
+"2007","North Dakota","Foster",3165
+"2008","North Dakota","Golden",1737
+"2009","North Dakota","Grand",69481
+"2010","North Dakota","Grant",2215
+"2011","North Dakota","Griggs",2207
+"2012","North Dakota","Hettinger",2438
+"2013","North Dakota","Kidder",2458
+"2014","North Dakota","LaMoure",4033
+"2015","North Dakota","Logan",1880
+"2016","North Dakota","McHenry",5695
+"2017","North Dakota","McIntosh",2440
+"2018","North Dakota","McKenzie",15242
+"2019","North Dakota","McLean",9416
+"2020","North Dakota","Mercer",8174
+"2021","North Dakota","Morton",31503
+"2022","North Dakota","Mountrail",10502
+"2023","North Dakota","Nelson",2789
+"2024","North Dakota","Oliver",1926
+"2025","North Dakota","Pembina",6658
+"2026","North Dakota","Pierce",3928
+"2027","North Dakota","Ramsey",11388
+"2028","North Dakota","Ransom",5173
+"2029","North Dakota","Renville",2283
+"2030","North Dakota","Richland",16156
+"2031","North Dakota","Rolette",14165
+"2032","North Dakota","Sargent",3913
+"2033","North Dakota","Sheridan",1275
+"2034","North Dakota","Sioux",4173
+"2035","North Dakota","Slope",747
+"2036","North Dakota","Stark",32107
+"2037","North Dakota","Steele",1890
+"2038","North Dakota","Stutsman",20498
+"2039","North Dakota","Towner",2108
+"2040","North Dakota","Traill",7959
+"2041","North Dakota","Walsh",10437
+"2042","North Dakota","Ward",68466
+"2043","North Dakota","Wells",3709
+"2044","North Dakota","Williams",38700
+"2045","Ohio","Adams",27531
+"2046","Ohio","Allen",101980
+"2047","Ohio","Ashland",53362
+"2048","Ohio","Ashtabula",96513
+"2049","Ohio","Athens",65481
+"2050","Ohio","Auglaize",45680
+"2051","Ohio","Belmont",65932
+"2052","Ohio","Brown",43414
+"2053","Ohio","Butler",385648
+"2054","Ohio","Carroll",26897
+"2055","Ohio","Champaign",38960
+"2056","Ohio","Clark",133593
+"2057","Ohio","Clermont",207449
+"2058","Ohio","Clinton",41921
+"2059","Ohio","Columbiana",101118
+"2060","Ohio","Coshocton",36449
+"2061","Ohio","Crawford",41338
+"2062","Ohio","Cuyahoga",1227883
+"2063","Ohio","Darke",51205
+"2064","Ohio","Defiance",37778
+"2065","Ohio","Delaware",213554
+"2066","Ohio","Erie",73719
+"2067","Ohio","Fairfield",159709
+"2068","Ohio","Fayette",28579
+"2069","Ohio","Franklin",1324624
+"2070","Ohio","Fulton",41889
+"2071","Ohio","Gallia",29802
+"2072","Ohio","Geauga",93271
+"2073","Ohio","Greene",170122
+"2074","Ohio","Guernsey",38779
+"2075","Ohio","Hamilton",817985
+"2076","Ohio","Hancock",75407
+"2077","Ohio","Hardin",31469
+"2078","Ohio","Harrison",15014
+"2079","Ohio","Henry",26904
+"2080","Ohio","Highland",43304
+"2081","Ohio","Hocking",28095
+"2082","Ohio","Holmes",44004
+"2083","Ohio","Huron",57979
+"2084","Ohio","Jackson",32493
+"2085","Ohio","Jefferson",64939
+"2086","Ohio","Knox",62423
+"2087","Ohio","Lake",229569
+"2088","Ohio","Lawrence",59091
+"2089","Ohio","Licking",178100
+"2090","Ohio","Logan",45326
+"2091","Ohio","Lorain",312172
+"2092","Ohio","Lucas",428294
+"2093","Ohio","Madison",44559
+"2094","Ohio","Mahoning",226075
+"2095","Ohio","Marion",64820
+"2096","Ohio","Medina",180912
+"2097","Ohio","Meigs",22678
+"2098","Ohio","Mercer",41274
+"2099","Ohio","Miami",107516
+"2100","Ohio","Monroe",13586
+"2101","Ohio","Montgomery",531610
+"2102","Ohio","Morgan",14305
+"2103","Ohio","Morrow",35411
+"2104","Ohio","Muskingum",86020
+"2105","Ohio","Noble",14364
+"2106","Ohio","Ottawa",40253
+"2107","Ohio","Paulding",18648
+"2108","Ohio","Perry",36215
+"2109","Ohio","Pickaway",58658
+"2110","Ohio","Pike",27695
+"2111","Ohio","Portage",162583
+"2112","Ohio","Preble",40836
+"2113","Ohio","Putnam",33654
+"2114","Ohio","Richland",120891
+"2115","Ohio","Ross",76420
+"2116","Ohio","Sandusky",58351
+"2117","Ohio","Scioto",74347
+"2118","Ohio","Seneca",54938
+"2119","Ohio","Shelby",48337
+"2120","Ohio","Stark",369772
+"2121","Ohio","Summit",538866
+"2122","Ohio","Trumbull",196800
+"2123","Ohio","Tuscarawas",91776
+"2124","Ohio","Union",60021
+"2125","Ohio","Van",28159
+"2126","Ohio","Vinton",12972
+"2127","Ohio","Warren",238412
+"2128","Ohio","Washington",59652
+"2129","Ohio","Wayne",115694
+"2130","Ohio","Williams",36565
+"2131","Ohio","Wood",131113
+"2132","Ohio","Wyandot",21711
+"2133","Oklahoma","Adair",21955
+"2134","Oklahoma","Alfalfa",5718
+"2135","Oklahoma","Atoka",13912
+"2136","Oklahoma","Beaver",5207
+"2137","Oklahoma","Beckham",21468
+"2138","Oklahoma","Blaine",9447
+"2139","Oklahoma","Bryan",48998
+"2140","Oklahoma","Caddo",28684
+"2141","Oklahoma","Canadian",153192
+"2142","Oklahoma","Carter",48353
+"2143","Oklahoma","Cherokee",49019
+"2144","Oklahoma","Choctaw",14646
+"2145","Oklahoma","Cimarron",2145
+"2146","Oklahoma","Cleveland",287066
+"2147","Oklahoma","Coal",5587
+"2148","Oklahoma","Comanche",121099
+"2149","Oklahoma","Cotton",5676
+"2150","Oklahoma","Craig",14194
+"2151","Oklahoma","Creek",71485
+"2152","Oklahoma","Custer",28648
+"2153","Oklahoma","Delaware",43136
+"2154","Oklahoma","Dewey",4815
+"2155","Oklahoma","Ellis",3830
+"2156","Oklahoma","Garfield",60869
+"2157","Oklahoma","Garvin",27691
+"2158","Oklahoma","Grady",55906
+"2159","Oklahoma","Grant",4372
+"2160","Oklahoma","Greer",5704
+"2161","Oklahoma","Harmon",2557
+"2162","Oklahoma","Harper",3611
+"2163","Oklahoma","Haskell",12652
+"2164","Oklahoma","Hughes",13126
+"2165","Oklahoma","Jackson",24305
+"2166","Oklahoma","Jefferson",5949
+"2167","Oklahoma","Johnston",10824
+"2168","Oklahoma","Kay",43274
+"2169","Oklahoma","Kingfisher",15806
+"2170","Oklahoma","Kiowa",8741
+"2171","Oklahoma","Latimer",10132
+"2172","Oklahoma","Le",49935
+"2173","Oklahoma","Lincoln",35045
+"2174","Oklahoma","Logan",48777
+"2175","Oklahoma","Love",10230
+"2176","Oklahoma","McClain",41348
+"2177","Oklahoma","McCurtain",32772
+"2178","Oklahoma","McIntosh",19635
+"2179","Oklahoma","Major",7579
+"2180","Oklahoma","Marshall",17114
+"2181","Oklahoma","Mayes",41152
+"2182","Oklahoma","Murray",13955
+"2183","Oklahoma","Muskogee",67610
+"2184","Oklahoma","Noble",11113
+"2185","Oklahoma","Nowata",10076
+"2186","Oklahoma","Okfuskee",11765
+"2187","Oklahoma","Oklahoma",804041
+"2188","Oklahoma","Okmulgee",38234
+"2189","Oklahoma","Osage",46642
+"2190","Oklahoma","Ottawa",30879
+"2191","Oklahoma","Pawnee",16381
+"2192","Oklahoma","Payne",81755
+"2193","Oklahoma","Pittsburg",43679
+"2194","Oklahoma","Pontotoc",38397
+"2195","Oklahoma","Pottawatomie",72998
+"2196","Oklahoma","Pushmataha",10970
+"2197","Oklahoma","Roger",3570
+"2198","Oklahoma","Rogers",93155
+"2199","Oklahoma","Seminole",24248
+"2200","Oklahoma","Sequoyah",41538
+"2201","Oklahoma","Stephens",43100
+"2202","Oklahoma","Texas",19997
+"2203","Oklahoma","Tillman",7229
+"2204","Oklahoma","Tulsa",657589
+"2205","Oklahoma","Wagoner",82925
+"2206","Oklahoma","Washington",52222
+"2207","Oklahoma","Washita",10830
+"2208","Oklahoma","Woods",8687
+"2209","Oklahoma","Woodward",19812
+"2210","Oregon","Baker",16284
+"2211","Oregon","Benton",93239
+"2212","Oregon","Clackamas",421596
+"2213","Oregon","Clatsop",40423
+"2214","Oregon","Columbia",52876
+"2215","Oregon","Coos",64711
+"2216","Oregon","Crook",25105
+"2217","Oregon","Curry",23305
+"2218","Oregon","Deschutes",201769
+"2219","Oregon","Douglas",111364
+"2220","Oregon","Gilliam",1975
+"2221","Oregon","Grant",7180
+"2222","Oregon","Harney",7373
+"2223","Oregon","Hood",23280
+"2224","Oregon","Jackson",221844
+"2225","Oregon","Jefferson",24856
+"2226","Oregon","Josephine",88053
+"2227","Oregon","Klamath",68739
+"2228","Oregon","Lake",7949
+"2229","Oregon","Lane",382986
+"2230","Oregon","Lincoln",50583
+"2231","Oregon","Linn",131054
+"2232","Oregon","Malheur",30983
+"2233","Oregon","Marion",349204
+"2234","Oregon","Morrow",11700
+"2235","Oregon","Multnomah",815637
+"2236","Oregon","Polk",87744
+"2237","Oregon","Sherman",1801
+"2238","Oregon","Tillamook",27442
+"2239","Oregon","Umatilla",77752
+"2240","Oregon","Union",26551
+"2241","Oregon","Wallowa",7181
+"2242","Oregon","Wasco",26403
+"2243","Oregon","Washington",603514
+"2244","Oregon","Wheeler",1387
+"2245","Oregon","Yamhill",107664
+"2246","Pennsylvania","Adams",102742
+"2247","Pennsylvania","Allegheny",1211358
+"2248","Pennsylvania","Armstrong",64162
+"2249","Pennsylvania","Beaver",162575
+"2250","Pennsylvania","Bedford",47817
+"2251","Pennsylvania","Berks",421017
+"2252","Pennsylvania","Blair",121007
+"2253","Pennsylvania","Bradford",60221
+"2254","Pennsylvania","Bucks",627987
+"2255","Pennsylvania","Butler",189135
+"2256","Pennsylvania","Cambria",128672
+"2257","Pennsylvania","Cameron",4330
+"2258","Pennsylvania","Carbon",64081
+"2259","Pennsylvania","Centre",161496
+"2260","Pennsylvania","Chester",526759
+"2261","Pennsylvania","Clarion",38305
+"2262","Pennsylvania","Clearfield",78612
+"2263","Pennsylvania","Clinton",37957
+"2264","Pennsylvania","Columbia",64842
+"2265","Pennsylvania","Crawford",83697
+"2266","Pennsylvania","Cumberland",255857
+"2267","Pennsylvania","Dauphin",279874
+"2268","Pennsylvania","Delaware",566753
+"2269","Pennsylvania","Elk",29607
+"2270","Pennsylvania","Erie",268426
+"2271","Pennsylvania","Fayette",128126
+"2272","Pennsylvania","Forest",6965
+"2273","Pennsylvania","Franklin",155637
+"2274","Pennsylvania","Fulton",14501
+"2275","Pennsylvania","Greene",35621
+"2276","Pennsylvania","Huntingdon",44590
+"2277","Pennsylvania","Indiana",83664
+"2278","Pennsylvania","Jefferson",43108
+"2279","Pennsylvania","Juniata",24619
+"2280","Pennsylvania","Lackawanna",208989
+"2281","Pennsylvania","Lancaster",546192
+"2282","Pennsylvania","Lawrence",85083
+"2283","Pennsylvania","Lebanon",141663
+"2284","Pennsylvania","Lehigh",370802
+"2285","Pennsylvania","Luzerne",316982
+"2286","Pennsylvania","Lycoming",113209
+"2287","Pennsylvania","McKean",40333
+"2288","Pennsylvania","Mercer",108545
+"2289","Pennsylvania","Mifflin",46064
+"2290","Pennsylvania","Monroe",170154
+"2291","Pennsylvania","Montgomery",833869
+"2292","Pennsylvania","Montour",18042
+"2293","Pennsylvania","Northampton",305892
+"2294","Pennsylvania","Northumberland",90258
+"2295","Pennsylvania","Perry",46212
+"2296","Pennsylvania","Philadelphia",1578487
+"2297","Pennsylvania","Pike",56072
+"2298","Pennsylvania","Potter",16453
+"2299","Pennsylvania","Schuylkill",140709
+"2300","Pennsylvania","Snyder",40317
+"2301","Pennsylvania","Somerset",72916
+"2302","Pennsylvania","Sullivan",5913
+"2303","Pennsylvania","Susquehanna",40006
+"2304","Pennsylvania","Tioga",40381
+"2305","Pennsylvania","Union",44294
+"2306","Pennsylvania","Venango",50328
+"2307","Pennsylvania","Warren",38911
+"2308","Pennsylvania","Washington",206803
+"2309","Pennsylvania","Wayne",51163
+"2310","Pennsylvania","Westmoreland",347087
+"2311","Pennsylvania","Wyoming",26557
+"2312","Pennsylvania","York",450448
+"2313","Rhode Island","Bristol",48350
+"2314","Rhode Island","Kent",164646
+"2315","Rhode Island","Newport",81836
+"2316","Rhode Island","Providence",636547
+"2317","Rhode Island","Washington",125746
+"2318","South Carolina","Abbeville",24404
+"2319","South Carolina","Aiken",172895
+"2320","South Carolina","Allendale",8331
+"2321","South Carolina","Anderson",204353
+"2322","South Carolina","Bamberg",13906
+"2323","South Carolina","Barnwell",20805
+"2324","South Carolina","Beaufort",195656
+"2325","South Carolina","Berkeley",235987
+"2326","South Carolina","Calhoun",14554
+"2327","South Carolina","Charleston",417981
+"2328","South Carolina","Cherokee",57316
+"2329","South Carolina","Chester",32232
+"2330","South Carolina","Chesterfield",45606
+"2331","South Carolina","Clarendon",33415
+"2332","South Carolina","Colleton",37481
+"2333","South Carolina","Darlington",66509
+"2334","South Carolina","Dillon",30367
+"2335","South Carolina","Dorchester",165737
+"2336","South Carolina","Edgefield",27120
+"2337","South Carolina","Fairfield",22059
+"2338","South Carolina","Florence",137588
+"2339","South Carolina","Georgetown",63353
+"2340","South Carolina","Greenville",532486
+"2341","South Carolina","Greenwood",71074
+"2342","South Carolina","Hampton",18053
+"2343","South Carolina","Horry",365449
+"2344","South Carolina","Jasper",31588
+"2345","South Carolina","Kershaw",67472
+"2346","South Carolina","Lancaster",100926
+"2347","South Carolina","Laurens",67883
+"2348","South Carolina","Lee",16701
+"2349","South Carolina","Lexington",303946
+"2350","South Carolina","McCormick",9430
+"2351","South Carolina","Marion",30158
+"2352","South Carolina","Marlboro",25581
+"2353","South Carolina","Newberry",38445
+"2354","South Carolina","Oconee",80015
+"2355","South Carolina","Orangeburg",85343
+"2356","South Carolina","Pickens",127983
+"2357","South Carolina","Richland",419051
+"2358","South Carolina","Saluda",20315
+"2359","South Carolina","Spartanburg",326205
+"2360","South Carolina","Sumter",106360
+"2361","South Carolina","Union",26991
+"2362","South Carolina","Williamsburg",29825
+"2363","South Carolina","York",289105
+"2364","South Dakota","Aurora",2730
+"2365","South Dakota","Beadle",18513
+"2366","South Dakota","Bennett",3399
+"2367","South Dakota","Bon",6848
+"2368","South Dakota","Brookings",35603
+"2369","South Dakota","Brown",38738
+"2370","South Dakota","Brule",5254
+"2371","South Dakota","Buffalo",1956
+"2372","South Dakota","Butte",10538
+"2373","South Dakota","Campbell",1380
+"2374","South Dakota","Charles",9262
+"2375","South Dakota","Clark",3802
+"2376","South Dakota","Clay",14246
+"2377","South Dakota","Codington",28186
+"2378","South Dakota","Corson",4031
+"2379","South Dakota","Custer",9017
+"2380","South Dakota","Davison",19812
+"2381","South Dakota","Day",5345
+"2382","South Dakota","Deuel",4346
+"2383","South Dakota","Dewey",5789
+"2384","South Dakota","Douglas",2906
+"2385","South Dakota","Edmunds",3817
+"2386","South Dakota","Fall",6708
+"2387","South Dakota","Faulk",2306
+"2388","South Dakota","Grant",7000
+"2389","South Dakota","Gregory",4219
+"2390","South Dakota","Haakon",1861
+"2391","South Dakota","Hamlin",6234
+"2392","South Dakota","Hand",3127
+"2393","South Dakota","Hanson",3489
+"2394","South Dakota","Harding",1311
+"2395","South Dakota","Hughes",17336
+"2396","South Dakota","Hutchinson",7282
+"2397","South Dakota","Hyde",1281
+"2398","South Dakota","Jackson",3321
+"2399","South Dakota","Jerauld",1985
+"2400","South Dakota","Jones",938
+"2401","South Dakota","Kingsbury",4987
+"2402","South Dakota","Lake",12488
+"2403","South Dakota","Lawrence",26221
+"2404","South Dakota","Lincoln",63019
+"2405","South Dakota","Lyman",3797
+"2406","South Dakota","McCook",5520
+"2407","South Dakota","McPherson",2363
+"2408","South Dakota","Marshall",4884
+"2409","South Dakota","Meade",28588
+"2410","South Dakota","Mellette",2089
+"2411","South Dakota","Miner",2202
+"2412","South Dakota","Minnehaha",196659
+"2413","South Dakota","Moody",6525
+"2414","South Dakota","Oglala",14070
+"2415","South Dakota","Pennington",115926
+"2416","South Dakota","Perkins",2832
+"2417","South Dakota","Potter",2163
+"2418","South Dakota","Roberts",10331
+"2419","South Dakota","Sanborn",2322
+"2420","South Dakota","Spink",6319
+"2421","South Dakota","Stanley",3121
+"2422","South Dakota","Sully",1391
+"2423","South Dakota","Todd",10313
+"2424","South Dakota","Tripp",5377
+"2425","South Dakota","Turner",8368
+"2426","South Dakota","Union",16192
+"2427","South Dakota","Walworth",5336
+"2428","South Dakota","Yankton",22742
+"2429","South Dakota","Ziebach",2656
+"2430","Tennessee","Anderson",77558
+"2431","Tennessee","Bedford",50179
+"2432","Tennessee","Benton",16131
+"2433","Tennessee","Bledsoe",15223
+"2434","Tennessee","Blount",134751
+"2435","Tennessee","Bradley",109071
+"2436","Tennessee","Campbell",39837
+"2437","Tennessee","Cannon",14847
+"2438","Tennessee","Carroll",27779
+"2439","Tennessee","Carter",56418
+"2440","Tennessee","Cheatham",41101
+"2441","Tennessee","Chester",17432
+"2442","Tennessee","Claiborne",32023
+"2443","Tennessee","Clay",7629
+"2444","Tennessee","Cocke",36225
+"2445","Tennessee","Coffee",57632
+"2446","Tennessee","Crockett",14180
+"2447","Tennessee","Cumberland",61603
+"2448","Tennessee","Davidson",694176
+"2449","Tennessee","Decatur",11601
+"2450","Tennessee","DeKalb",20837
+"2451","Tennessee","Dickson",54376
+"2452","Tennessee","Dyer",36693
+"2453","Tennessee","Fayette",41620
+"2454","Tennessee","Fentress",18787
+"2455","Tennessee","Franklin",42485
+"2456","Tennessee","Gibson",49159
+"2457","Tennessee","Giles",29530
+"2458","Tennessee","Grainger",23565
+"2459","Tennessee","Greene",69571
+"2460","Tennessee","Grundy",13485
+"2461","Tennessee","Hamblen",65110
+"2462","Tennessee","Hamilton",371662
+"2463","Tennessee","Hancock",6493
+"2464","Tennessee","Hardeman",24836
+"2465","Tennessee","Hardin",25583
+"2466","Tennessee","Hawkins",56775
+"2467","Tennessee","Haywood",17002
+"2468","Tennessee","Henderson",28076
+"2469","Tennessee","Henry",32056
+"2470","Tennessee","Hickman",25387
+"2471","Tennessee","Houston",8292
+"2472","Tennessee","Humphreys",18590
+"2473","Tennessee","Jackson",11864
+"2474","Tennessee","Jefferson",55307
+"2475","Tennessee","Johnson",17849
+"2476","Tennessee","Knox",475609
+"2477","Tennessee","Lake",6988
+"2478","Tennessee","Lauderdale",25451
+"2479","Tennessee","Lawrence",44432
+"2480","Tennessee","Lewis",12363
+"2481","Tennessee","Lincoln",34540
+"2482","Tennessee","Loudon",54910
+"2483","Tennessee","McMinn",54208
+"2484","Tennessee","McNairy",25696
+"2485","Tennessee","Macon",24827
+"2486","Tennessee","Madison",98360
+"2487","Tennessee","Marion",28924
+"2488","Tennessee","Marshall",35016
+"2489","Tennessee","Maury",99590
+"2490","Tennessee","Meigs",12532
+"2491","Tennessee","Monroe",47177
+"2492","Tennessee","Montgomery",214251
+"2493","Tennessee","Moore",6438
+"2494","Tennessee","Morgan",21431
+"2495","Tennessee","Obion",30131
+"2496","Tennessee","Overton",22566
+"2497","Tennessee","Perry",8099
+"2498","Tennessee","Pickett",5061
+"2499","Tennessee","Polk",16835
+"2500","Tennessee","Putnam",80929
+"2501","Tennessee","Rhea",33443
+"2502","Tennessee","Roane",53841
+"2503","Tennessee","Robertson",72275
+"2504","Tennessee","Rutherford",339261
+"2505","Tennessee","Scott",22090
+"2506","Tennessee","Sequatchie",15176
+"2507","Tennessee","Sevier",99244
+"2508","Tennessee","Shelby",936017
+"2509","Tennessee","Smith",20285
+"2510","Tennessee","Stewart",13859
+"2511","Tennessee","Sullivan",158755
+"2512","Tennessee","Sumner",195561
+"2513","Tennessee","Tipton",61918
+"2514","Tennessee","Trousdale",11455
+"2515","Tennessee","Unicoi",17755
+"2516","Tennessee","Union",20187
+"2517","Tennessee","Van",5947
+"2518","Tennessee","Warren",41605
+"2519","Tennessee","Washington",130367
+"2520","Tennessee","Wayne",16524
+"2521","Tennessee","Weakley",33334
+"2522","Tennessee","White",27707
+"2523","Tennessee","Williamson",245348
+"2524","Tennessee","Wilson",148130
+"2525","Texas","Anderson",57805
+"2526","Texas","Andrews",18879
+"2527","Texas","Angelina",86796
+"2528","Texas","Aransas",23814
+"2529","Texas","Archer",8730
+"2530","Texas","Armstrong",1869
+"2531","Texas","Atascosa",51724
+"2532","Texas","Austin",29972
+"2533","Texas","Bailey",6697
+"2534","Texas","Bandera",23861
+"2535","Texas","Bastrop",91601
+"2536","Texas","Baylor",3518
+"2537","Texas","Bee",32513
+"2538","Texas","Bell",369927
+"2539","Texas","Bexar",2026823
+"2540","Texas","Blanco",12269
+"2541","Texas","Borden",706
+"2542","Texas","Bosque",18603
+"2543","Texas","Bowie",93481
+"2544","Texas","Brazoria",380518
+"2545","Texas","Brazos",232555
+"2546","Texas","Brewster",9237
+"2547","Texas","Briscoe",1487
+"2548","Texas","Brooks",6964
+"2549","Texas","Brown",37633
+"2550","Texas","Burleson",18514
+"2551","Texas","Burnet",49653
+"2552","Texas","Caldwell",43979
+"2553","Texas","Calhoun",21001
+"2554","Texas","Callahan",14110
+"2555","Texas","Cameron",424180
+"2556","Texas","Camp",13060
+"2557","Texas","Carson",5854
+"2558","Texas","Cass",29879
+"2559","Texas","Castro",7396
+"2560","Texas","Chambers",45590
+"2561","Texas","Cherokee",52875
+"2562","Texas","Childress",7143
+"2563","Texas","Clay",10550
+"2564","Texas","Cochran",2897
+"2565","Texas","Coke",3323
+"2566","Texas","Coleman",8100
+"2567","Texas","Collin",1072069
+"2568","Texas","Collingsworth",2877
+"2569","Texas","Colorado",21610
+"2570","Texas","Comal",164812
+"2571","Texas","Comanche",13750
+"2572","Texas","Concho",2827
+"2573","Texas","Cooke",41393
+"2574","Texas","Coryell",76737
+"2575","Texas","Cottle",1363
+"2576","Texas","Crane",4765
+"2577","Texas","Crockett",3513
+"2578","Texas","Crosby",5567
+"2579","Texas","Culberson",2149
+"2580","Texas","Dallam",7273
+"2581","Texas","Dallas",2635888
+"2582","Texas","Dawson",12974
+"2583","Texas","Deaf",18277
+"2584","Texas","Delta",5349
+"2585","Texas","Denton",919324
+"2586","Texas","DeWitt",20174
+"2587","Texas","Dickens",2140
+"2588","Texas","Dimmit",9925
+"2589","Texas","Donley",3308
+"2590","Texas","Duval",11058
+"2591","Texas","Eastland",18388
+"2592","Texas","Ector",167701
+"2593","Texas","Edwards",1923
+"2594","Texas","Ellis",191760
+"2595","Texas","El",841286
+"2596","Texas","Erath",43224
+"2597","Texas","Falls",17275
+"2598","Texas","Fannin",35913
+"2599","Texas","Fayette",25547
+"2600","Texas","Fisher",3784
+"2601","Texas","Floyd",5672
+"2602","Texas","Foard",1135
+"2603","Texas","Fort",839706
+"2604","Texas","Franklin",10821
+"2605","Texas","Freestone",19874
+"2606","Texas","Frio",20379
+"2607","Texas","Gaines",21996
+"2608","Texas","Galveston",345089
+"2609","Texas","Garza",6222
+"2610","Texas","Gillespie",26960
+"2611","Texas","Glasscock",1439
+"2612","Texas","Goliad",7626
+"2613","Texas","Gonzales",20948
+"2614","Texas","Gray",21658
+"2615","Texas","Grayson",138318
+"2616","Texas","Gregg",124229
+"2617","Texas","Grimes",29614
+"2618","Texas","Guadalupe",170608
+"2619","Texas","Hale",32754
+"2620","Texas","Hall",2939
+"2621","Texas","Hamilton",8557
+"2622","Texas","Hansford",5279
+"2623","Texas","Hardeman",4011
+"2624","Texas","Hardin",58305
+"2625","Texas","Harris",4738253
+"2626","Texas","Harrison",66386
+"2627","Texas","Hartley",5443
+"2628","Texas","Haskell",5754
+"2629","Texas","Hays",241365
+"2630","Texas","Hemphill",3777
+"2631","Texas","Henderson",83792
+"2632","Texas","Hidalgo",875200
+"2633","Texas","Hill",37006
+"2634","Texas","Hockley",22921
+"2635","Texas","Hood",63527
+"2636","Texas","Hopkins",37170
+"2637","Texas","Houston",22835
+"2638","Texas","Howard",36540
+"2639","Texas","Hudspeth",4906
+"2640","Texas","Hunt",99807
+"2641","Texas","Hutchinson",20677
+"2642","Texas","Irion",1564
+"2643","Texas","Jack",9056
+"2644","Texas","Jackson",14854
+"2645","Texas","Jasper",35375
+"2646","Texas","Jeff",2220
+"2647","Texas","Jefferson",250127
+"2648","Texas","Jim",5184
+"2649","Texas","Jim",40452
+"2650","Texas","Johnson",179575
+"2651","Texas","Jones",19875
+"2652","Texas","Karnes",15562
+"2653","Texas","Kaufman",143198
+"2654","Texas","Kendall",48523
+"2655","Texas","Kenedy",379
+"2656","Texas","Kent",786
+"2657","Texas","Kerr",52869
+"2658","Texas","Kimble",4396
+"2659","Texas","King",283
+"2660","Texas","Kinney",3670
+"2661","Texas","Kleberg",30338
+"2662","Texas","Knox",3683
+"2663","Texas","Lamar",49905
+"2664","Texas","Lamb",12710
+"2665","Texas","Lampasas",21789
+"2666","Texas","La",7500
+"2667","Texas","Lavaca",20216
+"2668","Texas","Lee",17397
+"2669","Texas","Leon",17493
+"2670","Texas","Liberty",91547
+"2671","Texas","Limestone",23340
+"2672","Texas","Lipscomb",3111
+"2673","Texas","Live",12324
+"2674","Texas","Llano",21958
+"2675","Texas","Loving",181
+"2676","Texas","Lubbock",314772
+"2677","Texas","Lynn",6025
+"2678","Texas","McCulloch",7823
+"2679","Texas","McLennan",259730
+"2680","Texas","McMullen",721
+"2681","Texas","Madison",14427
+"2682","Texas","Marion",9960
+"2683","Texas","Martin",5816
+"2684","Texas","Mason",4344
+"2685","Texas","Matagorda",36725
+"2686","Texas","Maverick",58378
+"2687","Texas","Medina",52358
+"2688","Texas","Menard",2124
+"2689","Texas","Midland",177863
+"2690","Texas","Milam",24708
+"2691","Texas","Mills",4840
+"2692","Texas","Mitchell",8202
+"2693","Texas","Montague",19962
+"2694","Texas","Montgomery",626351
+"2695","Texas","Moore",20654
+"2696","Texas","Morris",12393
+"2697","Texas","Motley",1185
+"2698","Texas","Nacogdoches",64753
+"2699","Texas","Navarro",50694
+"2700","Texas","Newton",13414
+"2701","Texas","Nolan",14835
+"2702","Texas","Nueces",363148
+"2703","Texas","Ochiltree",9598
+"2704","Texas","Oldham",2135
+"2705","Texas","Orange",82878
+"2706","Texas","Palo",29320
+"2707","Texas","Panola",23187
+"2708","Texas","Parker",148198
+"2709","Texas","Parmer",9522
+"2710","Texas","Pecos",15718
+"2711","Texas","Polk",52995
+"2712","Texas","Potter",116004
+"2713","Texas","Presidio",6508
+"2714","Texas","Rains",12552
+"2715","Texas","Randall",139899
+"2716","Texas","Reagan",3833
+"2717","Texas","Real",3411
+"2718","Texas","Red",11995
+"2719","Texas","Reeves",15949
+"2720","Texas","Refugio",6877
+"2721","Texas","Roberts",813
+"2722","Texas","Robertson",17155
+"2723","Texas","Rockwall",109888
+"2724","Texas","Runnels",10401
+"2725","Texas","Rusk",54324
+"2726","Texas","Sabine",10507
+"2727","Texas","San",8248
+"2728","Texas","San",29301
+"2729","Texas","San",67069
+"2730","Texas","San",6039
+"2731","Texas","Schleicher",2761
+"2732","Texas","Scurry",16662
+"2733","Texas","Shackelford",3300
+"2734","Texas","Shelby",24915
+"2735","Texas","Sherman",3027
+"2736","Texas","Smith",235806
+"2737","Texas","Somervell",9139
+"2738","Texas","Starr",64266
+"2739","Texas","Stephens",9334
+"2740","Texas","Sterling",1315
+"2741","Texas","Stonewall",1348
+"2742","Texas","Sutton",3738
+"2743","Texas","Swisher",7340
+"2744","Texas","Tarrant",2123347
+"2745","Texas","Taylor",139200
+"2746","Texas","Terrell",702
+"2747","Texas","Terry",12183
+"2748","Texas","Throckmorton",1487
+"2749","Texas","Titus",32926
+"2750","Texas","Tom",120010
+"2751","Texas","Travis",1300503
+"2752","Texas","Trinity",14883
+"2753","Texas","Tyler",21591
+"2754","Texas","Upshur",42166
+"2755","Texas","Upton",3623
+"2756","Texas","Uvalde",26742
+"2757","Texas","Val",49028
+"2758","Texas","Van",57533
+"2759","Texas","Victoria",91936
+"2760","Texas","Walker",72164
+"2761","Texas","Waller",57452
+"2762","Texas","Ward",12097
+"2763","Texas","Washington",35771
+"2764","Texas","Webb",277681
+"2765","Texas","Wharton",41685
+"2766","Texas","Wheeler",4946
+"2767","Texas","Wichita",133205
+"2768","Texas","Wilbarger",12552
+"2769","Texas","Willacy",21161
+"2770","Texas","Williamson",617855
+"2771","Texas","Wilson",52023
+"2772","Texas","Winkler",7887
+"2773","Texas","Wise",71084
+"2774","Texas","Wood",46291
+"2775","Texas","Yoakum",8702
+"2776","Texas","Young",17904
+"2777","Texas","Zapata",14172
+"2778","Texas","Zavala",11840
+"2779","Utah","Beaver",6761
+"2780","Utah","Box",57007
+"2781","Utah","Cache",130004
+"2782","Utah","Carbon",20760
+"2783","Utah","Daggett",1026
+"2784","Utah","Davis",359232
+"2785","Utah","Duchesne",19894
+"2786","Utah","Emery",10147
+"2787","Utah","Garfield",5050
+"2788","Utah","Grand",9796
+"2789","Utah","Iron",56814
+"2790","Utah","Juab",12122
+"2791","Utah","Kane",7914
+"2792","Utah","Millard",13327
+"2793","Utah","Morgan",12462
+"2794","Utah","Piute",1473
+"2795","Utah","Rich",2452
+"2796","Utah","Salt",1165517
+"2797","Utah","San",15278
+"2798","Utah","Sanpete",31393
+"2799","Utah","Sevier",21780
+"2800","Utah","Summit",42499
+"2801","Utah","Tooele",74512
+"2802","Utah","Uintah",35970
+"2803","Utah","Utah",651059
+"2804","Utah","Wasatch",35300
+"2805","Utah","Washington",184913
+"2806","Utah","Wayne",2759
+"2807","Utah","Weber",262658
+"2808","Vermont","Addison",36851
+"2809","Vermont","Bennington",35338
+"2810","Vermont","Caledonia",29705
+"2811","Vermont","Chittenden",164306
+"2812","Vermont","Essex",6123
+"2813","Vermont","Franklin",49685
+"2814","Vermont","Grand",7169
+"2815","Vermont","Lamoille",25341
+"2816","Vermont","Orange",28837
+"2817","Vermont","Orleans",26897
+"2818","Vermont","Rutland",57764
+"2819","Vermont","Washington",58328
+"2820","Vermont","Windham",42015
+"2821","Vermont","Windsor",54988
+"2822","Virginia","Accomack",32238
+"2823","Virginia","Albemarle",110652
+"2824","Virginia","Alleghany",14701
+"2825","Virginia","Amelia",13014
+"2826","Virginia","Amherst",31667
+"2827","Virginia","Appomattox",16043
+"2828","Virginia","Arlington",240119
+"2829","Virginia","Augusta",76544
+"2830","Virginia","Bath",4119
+"2831","Virginia","Bedford",79811
+"2832","Virginia","Bland",6239
+"2833","Virginia","Botetourt",33633
+"2834","Virginia","Brunswick",16037
+"2835","Virginia","Buchanan",20613
+"2836","Virginia","Buckingham",17168
+"2837","Virginia","Campbell",55304
+"2838","Virginia","Caroline",30860
+"2839","Virginia","Carroll",30074
+"2840","Virginia","Charles",6821
+"2841","Virginia","Charlotte",11820
+"2842","Virginia","Chesterfield",358245
+"2843","Virginia","Clarke",14622
+"2844","Virginia","Craig",5077
+"2845","Virginia","Culpeper",53569
+"2846","Virginia","Cumberland",9933
+"2847","Virginia","Dickenson",14078
+"2848","Virginia","Dinwiddie",28688
+"2849","Virginia","Essex",10943
+"2850","Virginia","Fairfax",1150847
+"2851","Virginia","Fauquier",71361
+"2852","Virginia","Floyd",15777
+"2853","Virginia","Fluvanna",27422
+"2854","Virginia","Franklin",56167
+"2855","Virginia","Frederick",91119
+"2856","Virginia","Giles",16663
+"2857","Virginia","Gloucester",37459
+"2858","Virginia","Goochland",24431
+"2859","Virginia","Grayson",15493
+"2860","Virginia","Greene",20131
+"2861","Virginia","Greensville",11280
+"2862","Virginia","Halifax",33633
+"2863","Virginia","Hanover",108262
+"2864","Virginia","Henrico",333766
+"2865","Virginia","Henry",50309
+"2866","Virginia","Highland",2200
+"2867","Virginia","Isle",37725
+"2868","Virginia","James",77612
+"2869","Virginia","King",6942
+"2870","Virginia","King",27381
+"2871","Virginia","King",17641
+"2872","Virginia","Lancaster",10618
+"2873","Virginia","Lee",23238
+"2874","Virginia","Loudoun",422784
+"2875","Virginia","Louisa",38132
+"2876","Virginia","Lunenburg",12267
+"2877","Virginia","Madison",13312
+"2878","Virginia","Mathews",8766
+"2879","Virginia","Mecklenburg",30679
+"2880","Virginia","Middlesex",10569
+"2881","Virginia","Montgomery",98391
+"2882","Virginia","Nelson",14755
+"2883","Virginia","New",23648
+"2884","Virginia","Northampton",11673
+"2885","Virginia","Northumberland",12069
+"2886","Virginia","Nottoway",15160
+"2887","Virginia","Orange",37695
+"2888","Virginia","Page",23933
+"2889","Virginia","Patrick",17493
+"2890","Virginia","Pittsylvania",59850
+"2891","Virginia","Powhatan",30148
+"2892","Virginia","Prince",23006
+"2893","Virginia","Prince",38686
+"2894","Virginia","Prince",475533
+"2895","Virginia","Pulaski",33935
+"2896","Virginia","Rappahannock",7260
+"2897","Virginia","Richmond",9071
+"2898","Virginia","Roanoke",94509
+"2899","Virginia","Rockbridge",22757
+"2900","Virginia","Rockingham",82346
+"2901","Virginia","Russell",26647
+"2902","Virginia","Scott",21629
+"2903","Virginia","Shenandoah",43905
+"2904","Virginia","Smyth",30090
+"2905","Virginia","Southampton",17636
+"2906","Virginia","Spotsylvania",138449
+"2907","Virginia","Stafford",156748
+"2908","Virginia","Surry",6385
+"2909","Virginia","Sussex",10925
+"2910","Virginia","Tazewell",40529
+"2911","Virginia","Warren",40475
+"2912","Virginia","Washington",53695
+"2913","Virginia","Westmoreland",18149
+"2914","Virginia","Wise",37206
+"2915","Virginia","Wythe",28620
+"2916","Virginia","York",69199
+"2917","Virginia","Alexandria",158726
+"2918","Virginia","Bristol",17329
+"2919","Virginia","Buena",6402
+"2920","Virginia","Charlottesville",46950
+"2921","Virginia","Chesapeake",247011
+"2922","Virginia","Colonial",17205
+"2923","Virginia","Covington",5639
+"2924","Virginia","Danville",39869
+"2925","Virginia","Emporia",5257
+"2926","Virginia","Fairfax",23429
+"2927","Virginia","Falls",14631
+"2928","Virginia","Franklin",7833
+"2929","Virginia","Fredericksburg",29492
+"2930","Virginia","Galax",6296
+"2931","Virginia","Hampton",135464
+"2932","Virginia","Harrisonburg",53204
+"2933","Virginia","Hopewell",22375
+"2934","Virginia","Lexington",7279
+"2935","Virginia","Lynchburg",81561
+"2936","Virginia","Manassas",40869
+"2937","Virginia","Manassas",18004
+"2938","Virginia","Martinsville",12355
+"2939","Virginia","Newport",179062
+"2940","Virginia","Norfolk",242803
+"2941","Virginia","Norton",3985
+"2942","Virginia","Petersburg",30446
+"2943","Virginia","Poquoson",12257
+"2944","Virginia","Portsmouth",95094
+"2945","Virginia","Radford",18255
+"2946","Virginia","Richmond",232226
+"2947","Virginia","Roanoke",99058
+"2948","Virginia","Salem",25340
+"2949","Virginia","Staunton",25190
+"2950","Virginia","Suffolk",93913
+"2951","Virginia","Virginia",451231
+"2952","Virginia","Waynesboro",22741
+"2953","Virginia","Williamsburg",15259
+"2954","Virginia","Winchester",27700
+"2955","Washington","Adams",20027
+"2956","Washington","Asotin",22820
+"2957","Washington","Benton",206426
+"2958","Washington","Chelan",77574
+"2959","Washington","Clallam",78067
+"2960","Washington","Clark",496865
+"2961","Washington","Columbia",4048
+"2962","Washington","Cowlitz",111371
+"2963","Washington","Douglas",43560
+"2964","Washington","Ferry",7759
+"2965","Washington","Franklin",97075
+"2966","Washington","Garfield",2290
+"2967","Washington","Grant",99377
+"2968","Washington","Grays",75950
+"2969","Washington","Island",86014
+"2970","Washington","Jefferson",32700
+"2971","Washington","King",2274315
+"2972","Washington","Kitsap",272787
+"2973","Washington","Kittitas",49204
+"2974","Washington","Klickitat",22697
+"2975","Washington","Lewis",82109
+"2976","Washington","Lincoln",11090
+"2977","Washington","Mason",68224
+"2978","Washington","Okanogan",42620
+"2979","Washington","Pacific",22984
+"2980","Washington","Pend",14144
+"2981","Washington","Pierce",913890
+"2982","Washington","San",17492
+"2983","Washington","Skagit",130789
+"2984","Washington","Skamania",12107
+"2985","Washington","Snohomish",830393
+"2986","Washington","Spokane",528225
+"2987","Washington","Stevens",46360
+"2988","Washington","Thurston",294074
+"2989","Washington","Wahkiakum",4498
+"2990","Washington","Walla",61292
+"2991","Washington","Whatcom",231016
+"2992","Washington","Whitman",49500
+"2993","Washington","Yakima",251879
+"2994","West Virginia","Barbour",16444
+"2995","West Virginia","Berkeley",122125
+"2996","West Virginia","Boone",21055
+"2997","West Virginia","Braxton",13702
+"2998","West Virginia","Brooke",21674
+"2999","West Virginia","Cabell",91589
+"3000","West Virginia","Calhoun",6945
+"3001","West Virginia","Clay",8341
+"3002","West Virginia","Doddridge",8368
+"3003","West Virginia","Fayette",42062
+"3004","West Virginia","Gilmer",7811
+"3005","West Virginia","Grant",11510
+"3006","West Virginia","Greenbrier",34319
+"3007","West Virginia","Hampshire",23190
+"3008","West Virginia","Hancock",28571
+"3009","West Virginia","Hardy",13633
+"3010","West Virginia","Harrison",66870
+"3011","West Virginia","Jackson",28453
+"3012","West Virginia","Jefferson",57486
+"3013","West Virginia","Kanawha",176253
+"3014","West Virginia","Lewis",15805
+"3015","West Virginia","Lincoln",20043
+"3016","West Virginia","Logan",31688
+"3017","West Virginia","McDowell",16916
+"3018","West Virginia","Marion",55962
+"3019","West Virginia","Marshall",30103
+"3020","West Virginia","Mason",26335
+"3021","West Virginia","Mercer",58258
+"3022","West Virginia","Mineral",26722
+"3023","West Virginia","Mingo",22951
+"3024","West Virginia","Monongalia",106819
+"3025","West Virginia","Monroe",13229
+"3026","West Virginia","Morgan",17873
+"3027","West Virginia","Nicholas",24340
+"3028","West Virginia","Ohio",41182
+"3029","West Virginia","Pendleton",6932
+"3030","West Virginia","Pleasants",7438
+"3031","West Virginia","Pocahontas",8190
+"3032","West Virginia","Preston",33380
+"3033","West Virginia","Putnam",56428
+"3034","West Virginia","Raleigh",72920
+"3035","West Virginia","Randolph",28387
+"3036","West Virginia","Ritchie",9499
+"3037","West Virginia","Roane",13482
+"3038","West Virginia","Summers",12444
+"3039","West Virginia","Taylor",16699
+"3040","West Virginia","Tucker",6816
+"3041","West Virginia","Tyler",8533
+"3042","West Virginia","Upshur",24230
+"3043","West Virginia","Wayne",39054
+"3044","West Virginia","Webster",8058
+"3045","West Virginia","Wetzel",14904
+"3046","West Virginia","Wirt",5705
+"3047","West Virginia","Wood",82938
+"3048","West Virginia","Wyoming",20123
+"3049","Wisconsin","Adams",20498
+"3050","Wisconsin","Ashland",15415
+"3051","Wisconsin","Barron",45090
+"3052","Wisconsin","Bayfield",15242
+"3053","Wisconsin","Brown",264610
+"3054","Wisconsin","Buffalo",13033
+"3055","Wisconsin","Burnett",15557
+"3056","Wisconsin","Calumet",50209
+"3057","Wisconsin","Chippewa",64737
+"3058","Wisconsin","Clark",34720
+"3059","Wisconsin","Columbia",57668
+"3060","Wisconsin","Crawford",16021
+"3061","Wisconsin","Dane",552536
+"3062","Wisconsin","Dodge",87336
+"3063","Wisconsin","Door",27889
+"3064","Wisconsin","Douglas",43702
+"3065","Wisconsin","Dunn",45452
+"3066","Wisconsin","Eau",105260
+"3067","Wisconsin","Florence",4298
+"3068","Wisconsin","Fond",102902
+"3069","Wisconsin","Forest",8960
+"3070","Wisconsin","Grant",51021
+"3071","Wisconsin","Green",36603
+"3072","Wisconsin","Green",18908
+"3073","Wisconsin","Iowa",23640
+"3074","Wisconsin","Iron",5698
+"3075","Wisconsin","Jackson",20630
+"3076","Wisconsin","Jefferson",85038
+"3077","Wisconsin","Juneau",26908
+"3078","Wisconsin","Kenosha",169671
+"3079","Wisconsin","Kewaunee",20386
+"3080","Wisconsin","La",118502
+"3081","Wisconsin","Lafayette",16646
+"3082","Wisconsin","Langlade",19119
+"3083","Wisconsin","Lincoln",27566
+"3084","Wisconsin","Manitowoc",78757
+"3085","Wisconsin","Marathon",135593
+"3086","Wisconsin","Marinette",40262
+"3087","Wisconsin","Marquette",15585
+"3088","Wisconsin","Menominee",4546
+"3089","Wisconsin","Milwaukee",945016
+"3090","Wisconsin","Monroe",46582
+"3091","Wisconsin","Oconto",38383
+"3092","Wisconsin","Oneida",35751
+"3093","Wisconsin","Outagamie",188766
+"3094","Wisconsin","Ozaukee",90043
+"3095","Wisconsin","Pepin",7271
+"3096","Wisconsin","Pierce",42700
+"3097","Wisconsin","Polk",43794
+"3098","Wisconsin","Portage",71032
+"3099","Wisconsin","Price",13245
+"3100","Wisconsin","Racine",195802
+"3101","Wisconsin","Richland",17258
+"3102","Wisconsin","Rock",163084
+"3103","Wisconsin","Rusk",14022
+"3104","Wisconsin","St",91838
+"3105","Wisconsin","Sauk",64449
+"3106","Wisconsin","Sawyer",16700
+"3107","Wisconsin","Shawano",40786
+"3108","Wisconsin","Sheboygan",115240
+"3109","Wisconsin","Taylor",20318
+"3110","Wisconsin","Trempealeau",29681
+"3111","Wisconsin","Vernon",30861
+"3112","Wisconsin","Vilas",22356
+"3113","Wisconsin","Walworth",103953
+"3114","Wisconsin","Washburn",15712
+"3115","Wisconsin","Washington",136445
+"3116","Wisconsin","Waukesha",406172
+"3117","Wisconsin","Waupaca",50664
+"3118","Wisconsin","Waushara",24326
+"3119","Wisconsin","Winnebago",171631
+"3120","Wisconsin","Wood",72560
+"3121","Wyoming","Albany",38950
+"3122","Wyoming","Big",11575
+"3123","Wyoming","Campbell",46676
+"3124","Wyoming","Carbon",14711
+"3125","Wyoming","Converse",13804
+"3126","Wyoming","Crook",7593
+"3127","Wyoming","Fremont",39317
+"3128","Wyoming","Goshen",13235
+"3129","Wyoming","Hot",4425
+"3130","Wyoming","Johnson",8588
+"3131","Wyoming","Laramie",100595
+"3132","Wyoming","Lincoln",20253
+"3133","Wyoming","Natrona",80815
+"3134","Wyoming","Niobrara",2275
+"3135","Wyoming","Park",29331
+"3136","Wyoming","Platte",8578
+"3137","Wyoming","Sheridan",30863
+"3138","Wyoming","Sublette",9856
+"3139","Wyoming","Sweetwater",42673
+"3140","Wyoming","Teton",23497
+"3141","Wyoming","Uinta",20215
+"3142","Wyoming","Washakie",7760
+"3143","Wyoming","Weston",6743

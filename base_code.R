@@ -17,7 +17,10 @@ library(zoo)
 covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
 covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
 
-county <- read_csv("co-est2020-alldata.csv")
+county_population <- read_csv("county_population.csv")
+state_population <- read_csv("state_population.csv")
+united_states_pop <- read_csv("united_states_pop")
+
 
 
 # Data Preparation -------
