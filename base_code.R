@@ -21,7 +21,7 @@ covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-dat
 
 county_population <- read_csv("county_population.csv")
 state_population <- read_csv("state_population.csv")
-united_states_pop <- read_csv("united_states_pop")
+united_states_pop <- read_csv("united_states_pop.csv")
 
 
 
@@ -66,7 +66,28 @@ covid_matrix <- covid_matrix %>%
   mutate(cumulativeCases = cumsum(cases)) %>%
   mutate(cumulativeDeaths = cumsum(deaths)) 
 
-covid_matrix$cases = covid_matrix$cases/population * 100000
-covid_matrix$deaths = covid_matrix$deaths/population * 100000
-covid_matrix$cumulativeCases = covid_matrix$cumulativeCases * 100000
-covid_matrix$cumulativeDeaths = covid_matrix$cumulativeDeaths * 100000
+covid_matrix$cases = covid_matrix$cases/covid_matrix$population * 100000
+covid_matrix$deaths = covid_matrix$deaths/covid_matrix$population * 100000
+covid_matrix$cumulativeCases = covid_matrix$cumulativeCases/covid_matrix$population * 100000
+covid_matrix$cumulativeDeaths = covid_matrix$cumulativeDeaths/covid_matrix$population * 100000
+
+
+covid_rates(covid_counties, county_population)
+us_rates <- us_rates(covid_counties, united_states_pop)
+
+covid_counties <- na_replace(covid_counties,0)
+
+us_covid <- covid_counties %>%
+  summarise(deaths = sum(deaths),cases = sum(cases))
+
+county_covid <- covid_counties
+population <- united_states_pop
+
+county_covid <- na_replace(county_covid,0)
+us_covid <- county_covid %>%
+  summarise(cases = sum(cases), deaths = sum(deaths))
+
+us_covid <- crossing(us_covid, population)
+us_covid <- us_covid %>%
+  mutate(rateCases = cases/population*100000, 
+         rateDeaths = deaths/population*100000)
