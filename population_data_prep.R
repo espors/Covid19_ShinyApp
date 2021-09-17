@@ -7,20 +7,21 @@ county <- read_csv("co-est2020-alldata.csv")
 
 county_population <- county %>% 
   filter(SUMLEV == '050') %>%
-  separate(CTYNAME, c("CTYNAME", "Other", sep = " Cou")) %>%
-  select(STNAME, CTYNAME, POPESTIMATE2020) %>%
-  rename(state = STNAME, 
-         county = CTYNAME, 
-         population = POPESTIMATE2020)
+  unite('fips', STATE:COUNTY, sep = '') %>%
+  select(fips, STNAME, CTYNAME, POPESTIMATE2020) %>%
+  rename(population = POPESTIMATE2020, 
+         state = STNAME, 
+         county = CTYNAME)
   
 
 write.csv(county_population, "county_population.csv")
 
 state_population <- county %>%
   filter(SUMLEV == '040') %>%
-  select(STNAME, CTYNAME, POPESTIMATE2020) %>%
-  rename(state = STNAME, 
-         county = CTYNAME, 
+  select(STATE, STNAME, CTYNAME, POPESTIMATE2020) %>%
+  rename(fips = STATE, 
+         state = STNAME,
+         county = CTYNAME,
          population = POPESTIMATE2020)
 
 write.csv(state_population, "state_population.csv")

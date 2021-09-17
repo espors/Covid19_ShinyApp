@@ -6,6 +6,8 @@
   
 # Necessary Libraries ----------
 
+
+
 library(readr)
 library(tidyverse)
 library(ggplot2)
@@ -45,6 +47,7 @@ county_pop <- county %>%
 test <- crossing(county_population, dates)
 
 county_rates <- covid_rates(covid_counties, county_population)
+state_rates <- covid_rates(covid_states, state_population)
 
 covid_data <- covid_counties
 population <- county_population
