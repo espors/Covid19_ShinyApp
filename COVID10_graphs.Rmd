@@ -1,0 +1,50 @@
+---
+title: "COVID-19 Graphs"
+author: "Emma Spors"
+date: "9/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=TRUE}
+library(tidyverse)
+library(lubridate)
+library(imputeTS)
+source("covid_functions.r")
+```
+
+```{r, echo=FALSE,include=TRUE}
+covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
+covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
+
+county_population <- read_csv("county_population.csv")
+state_population <- read_csv("state_population.csv")
+united_states_pop <- read_csv("united_states_pop.csv")
+
+```
+
+```{r}
+covid_counties <- covid_rates(covid_counties, county_population)
+covid_states <- covid_rates(covid_states, state_population)
+covid_us <- us_rates(covid_states, united_states_pop)
+```
+
+
+```{r}
+covid_countiesR <- covid_counties %>%
+  filter(fips >= 46000 & fips < 47000)
+ts_counties <- ggplot(data = covid_countiesR, aes(x = date)) + 
+  geom_line(aes(y = cases, color = fips), size = 0.75) + 
+  theme_minimal() 
+ts_counties
+```
+
+```{r}
+ts_states <- ggplot(data = covid_states, aes(x = date)) + 
+  geom_line(aes(y = cases, color = state.x), size = 0.75) + 
+  theme_minimal() 
+ts_states
+```
