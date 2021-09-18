@@ -39,3 +39,47 @@ us_rates <- function(state_covid, us_population){
   return(covid_matrix)
 }
 
+
+cumulative_county <- function(county_covid, county_pop) {
+  covid <- county_covid %>%
+    filter(date == max(date))
+  
+  covid_matrix <- left_join(covid, county_pop, by = "fips")
+  
+  covid_matrix$cases = covid_matrix$cases/covid_matrix$population * 100000
+  covid_matrix$deaths = covid_matrix$deaths/covid_matrix$population * 100000
+  
+  covid_matrix <- drop_na(covid_matrix)
+  
+  return(covid_matrix)
+  
+}
+
+
+cumulative_state <- function(state_covid, state_pop) {
+  covid <- state_covid %>% 
+    filter(date == max(date))
+
+  covid_matrix <- left_join(covid, state_pop, by = "fips")
+  
+  covid_matrix$cases = covid_matrix$cases/covid_matrix$population * 100000
+  covid_matrix$deaths = covid_matrix$deaths/covid_matrix$population * 100000
+  return(covid_matrix)
+}
+
+state_covid <- covid_states
+us_pop <- united_states_pop
+
+cumulative_us <- function(state_covid, us_pop) {
+  covid <- state_covid %>%
+    filter(date == max(date)) %>%
+    summarise(cases = sum(cases), 
+              deaths = sum(deaths))
+  
+  covid_matrix <- crossing(covid, us_pop)
+  
+  covid_matrix$caseRate <- covid_matrix$cases/covid_matrix$population * 100000
+  covid_matrix$deathRate <- covid_matrix$deaths/covid_matrix$population * 100000
+  
+  return(covid_matrix)
+}
