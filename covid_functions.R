@@ -67,8 +67,6 @@ cumulative_state <- function(state_covid, state_pop) {
   return(covid_matrix)
 }
 
-state_covid <- covid_states
-us_pop <- united_states_pop
 
 cumulative_us <- function(state_covid, us_pop) {
   covid <- state_covid %>%
