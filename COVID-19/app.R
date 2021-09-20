@@ -4,6 +4,7 @@ library(tidyverse)
 library(lubridate)
 library(imputeTS)
 library(car)
+library(plotly)
 source("covid_functions.r")
 
 #read in data 
@@ -22,33 +23,87 @@ cumulativeCounties <- cumulative_county(covid_counties, county_population)
 cumulativeStates <- cumulative_state(covid_states, state_population)
 cumulativeUS <- cumulative_us(covid_states, united_states_pop)
 
-# Define UI for application that draws a histogram
+#define map information 
+mapDataStates <- cumulativeStates
+state <- map_data("state")
 
+mapDataStates$state.x <- tolower(mapDataStates$state.x)
+colnames(mapDataStates)[colnames(mapDataStates) == "state.x"] <- "region"
+states <- inner_join(state, mapDataStates, by = "region")
+
+mapBaseStates <- ggplot(data = state, mapping = aes(x = long, y = lat, group = group)) + 
+    coord_fixed(1.3) + 
+    geom_polygon(color = "black", fill = "gray")  + 
+    ylab('') + 
+    xlab('') + 
+    theme(axis.line=element_blank(),
+          axis.text.x=element_blank(),
+          axis.text.y=element_blank(),
+          axis.ticks=element_blank(),
+          axis.title.x=element_blank(),
+          axis.title.y=element_blank(),
+          panel.background=element_blank(),
+          panel.border=element_blank(),
+          panel.grid.major=element_blank(),
+          panel.grid.minor=element_blank(),
+          plot.background=element_blank(), 
+          legend.position = 'none')
+
+mapStatesCases <- mapBaseStates + 
+    geom_polygon(data = states, aes(fill = cases), color = "white") + 
+    scale_fill_gradient(low = "white", high = "darkolivegreen4")
+
+mapStatesCases <- ggplotly(mapStatesCases)
+
+mapStatesDeaths <- mapBaseStates + 
+    geom_polygon(data = states, aes(fill = deaths), color = "white") + 
+    scale_fill_gradient(low = "white", high = "darkblue")
+
+mapStatesDeaths <- ggplotly(mapStatesDeaths)
+
+# Define UI for application that draws a histogram
 
 ui <- fluidPage(
     titlePanel("COVID-19: An Overview in the United States"),
     tabsetPanel(
         tabPanel("United States",
                  fluidRow(
+                     h3("Maps are worth a 1,000 words..."),
                      column(6,
+                            h5("Cumulative Cases per 100,000 in the United States", align = 'center'), 
+                            plotlyOutput("UsCaseMap")
                             ), 
                      column(6,
+                            h5("Cumulative Deaths per 100,000 in the United State", align = 'center'), 
+                            plotlyOutput("UsDeathMap")
                             ),
                  ), 
                  fluidRow(
-                     column(3, verbatimTextOutput("rawCases")
-                            ), 
-                     column(3, verbatimTextOutput("cumuCases")
-                            ), 
-                     column(3, verbatimTextOutput("rawDeaths")
-                            ), 
-                     column(3, verbatimTextOutput("cumuDeaths")
-                            )
+                     h3("By the numbers..."),
+                     column(3,
+                            h5("Cumulative Cases in the US (Raw Counts)", align = 'center'),
+                            h4(verbatimTextOutput("rawCases"), align = 'right')
+                     ), 
+                     column(3,
+                            h5("Cumulative Cases\nPer 100,000 in the US", align = 'center'),
+                            h4(verbatimTextOutput("cumuCases"), align = 'right')
+                     ),
+                     column(3,
+                            h5("Cumulative Deaths\n(Raw Counts) in the US", align = 'center'),
+                            h4(verbatimTextOutput("rawDeaths"), align = 'right')
+                     ), 
+                     column(3, 
+                            h5("Cumulative Deaths\nPer 100,000 in the US", align = 'center'),
+                            h4(verbatimTextOutput("cumuDeaths"), align = 'right')
+                     )
                  )
     
     
         ), 
-        tabPanel("States"), 
+        tabPanel("States", 
+                 fluidRow(
+                     
+                 )), 
         tabPanel("Counties"), 
         tabPanel("Data and Methodology")
     )
@@ -57,9 +112,11 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
     output$rawCases <- renderText({cumulativeUS$cases})
-    output$cumuCases <- renderText({cumulativeUS$caseRate})
+    output$cumuCases <- renderText({round(cumulativeUS$caseRate,0)})
     output$rawDeaths <- renderText({cumulativeUS$deaths})
-    output$cumuDeaths <- renderText({cumulativeUS$deathRate})
+    output$cumuDeaths <- renderText({round(cumulativeUS$deathRate,0)})
+    output$UsCaseMap <- renderPlotly(mapStatesCases)
+    output$UsDeathMap <- renderPlotly(mapStatesDeaths)
 
 }
 
