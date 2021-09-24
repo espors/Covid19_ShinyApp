@@ -61,6 +61,10 @@ mapStatesDeaths <- mapBaseStates +
 
 mapStatesDeaths <- ggplotly(mapStatesDeaths)
 
+
+dodge <- position_dodge(width = 0.9)
+custom <- c("#335C67", "#E09F3E")
+
 # Define UI for application that draws a histogram
 
 ui <- fluidPage(
@@ -102,9 +106,27 @@ ui <- fluidPage(
         ), 
         tabPanel("States", 
                  fluidRow(
-                     
-                 )), 
-        tabPanel("Counties"), 
+                     column(3, 
+                            selectInput("state", "Select State(s)", cumulativeStates$state.x, multiple = TRUE, selected = "Arizona"),
+                            selectInput("cases_deaths", "Select Outcome", choices = c("Cases" = "cases", "Deaths" = "deaths", selected = "Cases"))
+                            ), 
+                     column(9, 
+                            plotlyOutput("mapCumulativeState")
+                            )),
+                 fluidRow(
+                     plotlyOutput("sirCumulativeState")
+                 )
+                 ), 
+        tabPanel("Counties",
+                 fluidRow(
+                     column(3, 
+                            selectInput("state", "Select State(s)", cumulativeStates$state.x, multiple = FALSE, selected = "Arizona"),
+                            selectInput("county", "Select Counties(s)", selectedState$county.x, multiple = TRUE),
+                            selectInput("cases_deaths", "Select Outcome", choices = c("Cases" = "cases", "Deaths" = "deaths", selected = "Cases"))
+                     ), 
+                     column(9, 
+                            plotlyOutput("mapCumulativeState")
+                     ))), 
         tabPanel("Data and Methodology")
     )
 )
@@ -117,7 +139,33 @@ server <- function(input, output) {
     output$cumuDeaths <- renderText({round(cumulativeUS$deathRate,0)})
     output$UsCaseMap <- renderPlotly(mapStatesCases)
     output$UsDeathMap <- renderPlotly(mapStatesDeaths)
-
+    
+    covidState <- reactive(covidStates %>%
+        filter(state.x == input$state))
+    
+   cumulativeState <-  reactive({cumulativeStates %>%
+        filter(state.x == input$state)})
+   
+   sirStates <- sir_states(cumulativeStates, cumulativeUS)
+   
+   #sirStatesR <- reactive({sirStates %>%
+           #filter(state.x == input$state)})
+   
+   output$mapCumulativeState <- renderPlotly(ggplotly(ggplot(data = covidState(), aes(x = date)) + 
+                                                          geom_line(aes(y = cases, color = state.x), size = 0.75) + 
+                                                          theme_minimal()))
+   
+  
+   output$sirCumulativeState <- renderPlotly(ggplotly(ggplot(data = sirStates, aes(y = (sir-1), x = reorder(state.x, sir), fill = typeC)) + 
+                                                          geom_bar(stat = "identity", position = dodge) + 
+                                                          geom_errorbar(aes(ymax = (usir - 1), ymin = (lsir - 1)), position = dodge, width = 0.25) + 
+                                                          xlab("State") + 
+                                                          ylab("SIR for cases") + 
+                                                          labs(fill = "Type") + 
+                                                          theme_minimal() + 
+                                                          theme(axis.text.x = element_text(angle = 45, hjust = 1)) + 
+                                                          scale_fill_manual(values = custom) + 
+                                                          theme(legend.position = "none")))
 }
 
 # Run the application 
