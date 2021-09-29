@@ -6,6 +6,7 @@ library(imputeTS)
 library(car)
 library(plotly)
 source("covid_functions.r")
+reactiveConsole(TRUE)
 
 #read in data 
 covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
@@ -107,21 +108,38 @@ ui <- fluidPage(
         tabPanel("States", 
                  fluidRow(
                      column(3, 
-                            selectInput("state", "Select State(s)", cumulativeStates$state.x, multiple = TRUE, selected = "Arizona"),
-                            selectInput("cases_deaths", "Select Outcome", choices = c("Cases" = "cases", "Deaths" = "deaths", selected = "Cases"))
+                            selectInput("state", "Select State(s)", cumulativeStates$state.x, multiple = TRUE, selected = "South Dakota"),
+                            selectInput("cases_deaths", "Select Outcome", choices = c("Cases" = 1, "Deaths" = 0), selected = "Cases")
                             ), 
                      column(9, 
-                            plotlyOutput("mapCumulativeState")
+                            plotlyOutput("mapTsState")
                             )),
                  fluidRow(
-                     plotlyOutput("sirCumulativeState")
+                     column(3, 
+                            h4("What are Standardized incidence ratios?"),
+                            tags$br(), 
+                            h5("Standarized incidence ratios compared the observed value to the expected
+                               value, based on a reference population. For this, the observed value was
+                               the cumulative rate per 100,000 and the expected value was the cumulative 
+                               rate per 100,000 in the United States. Values that are greater than one 
+                               indicate that that state saw a higher rate of a particular outcome than expected. 
+                               Values that are less than one indicate the that state saw a lower rate
+                               of a particular out than expected. For ease of intpretation, the values are 
+                               presented as 1-SIR. If a confidence interval contains zero, then that 
+                               state is not significantly different than expected.")
+                            
+                            ), 
+                     column(9, 
+                            plotlyOutput("sirCumulativeState")
+                            )
+                     
                  )
                  ), 
         tabPanel("Counties",
                  fluidRow(
                      column(3, 
-                             selectInput("state4Counties", "Select State(s)", cumulativeStates$state.x, multiple = FALSE, selected = "Arizona"),
-                             selectInput("county", "Select Counties(s)", stateForCounties(), multiple = TRUE),
+                             #selectInput("state4Counties", "Select State(s)", cumulativeStates$state.x, multiple = FALSE, selected = "Arizona"),
+                             #selectInput("county", "Select Counties(s)", stateForCounties(), multiple = TRUE),
                             # selectInput("cases_deaths", "Select Outcome", choices = c("Cases" = "cases", "Deaths" = "deaths", selected = "Cases"))
                      ), 
                      column(9, 
@@ -146,26 +164,61 @@ server <- function(input, output) {
     cumulativeState <-  reactive({cumulativeStates %>%
          filter(state.x == input$state)})
     
-   sirStates <- sir_states(cumulativeStates, cumulativeUS)
     
-   # #sirStatesR <- reactive({sirStates %>%
-   #         #filter(state.x == input$state)})
-   
-    output$mapCumulativeState <- renderPlotly(ggplotly(ggplot(data = covidState(), aes(x = date)) + 
-                                                           geom_line(aes(y = cases, color = state.x), size = 0.75) + 
-                                                           theme_minimal()))
+    ts_plot <- reactive({
+        if (input$cases_deaths == 1) return(ggplotly(ggplot(data = covidState(),
+                                                                 aes(x = date)) +
+                                                        geom_line(aes(y = cases, color = state.x), size = 0.75) +
+                                                         labs(title = "Cumulative cases per 100,000 by selected state", color = "State")+
+                                                         xlab("Date") + 
+                                                         ylab("Cumulative cases per 100,000") + 
+                                                        theme_minimal() 
+                                    
+                                                         ))
+        if (input$cases_deaths == 0) return(ggplotly(ggplot(data = covidState(),
+                                                          aes(x = date)) +
+                                                       geom_line(aes(y = deaths, color = state.x), size = 0.75) +
+                                                         labs(title = "Cumulative deaths per 100,000 by selected state", color = "State") + 
+                                                         xlab("Date") + 
+                                                         ylab("Cumulative deaths per 100,000") + 
+                                                       theme_minimal()))
+    })
     
+    output$mapTsState <- renderPlotly({
+        dataplots = ts_plot()
+        print(dataplots)
+    })
+    
+    sirStates <- sir_states(cumulativeStates, cumulativeUS)
+    
+    sir_plot <- reactive({
+        if (input$cases_deaths == 1) return(ggplotly(ggplot(data = sirStates, aes(y = (sir-1), x = reorder(state.x, sir), fill = typeC)) + 
+                                                         geom_bar(stat = "identity", position = dodge) +
+                                                         geom_errorbar(aes(ymax = (usir - 1), ymin = (lsir - 1)), position = dodge, width = 0.25) +
+                                                         xlab("State") +
+                                                         ylab("1-SIR for cases") +
+                                                         labs(fill = "Type") +
+                                                         theme_minimal() +
+                                                         theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+                                                         scale_fill_manual(values = custom) +
+                                                         theme(legend.position = "none")))
+        if (input$cases_deaths == 0) return(ggplotly(ggplot(data = sirStates, aes(y = (sdr-1), x = reorder(state.x, sdr), fill = typeD)) + 
+                                                         geom_bar(stat = "identity", position = dodge) +
+                                                         geom_errorbar(aes(ymax = (usdr - 1), ymin = (lsdr - 1)), position = dodge, width = 0.25) +
+                                                         xlab("State") +
+                                                         ylab("1-SIR for deaths") +
+                                                         labs(fill = "Type") +
+                                                         theme_minimal() +
+                                                         theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+                                                         scale_fill_manual(values = custom) +
+                                                         theme(legend.position = "none")))
+    })
+
    
-    output$sirCumulativeState <- renderPlotly(ggplotly(ggplot(data = sirStates, aes(y = (sir-1), x = reorder(state.x, sir), fill = typeC)) + 
-                                                          geom_bar(stat = "identity", position = dodge) +
-                                                          geom_errorbar(aes(ymax = (usir - 1), ymin = (lsir - 1)), position = dodge, width = 0.25) +
-                                                          xlab("State") +
-                                                          ylab("SIR for cases") +
-                                                          labs(fill = "Type") +
-                                                          theme_minimal() +
-                                                          theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-                                                          scale_fill_manual(values = custom) +
-                                                          theme(legend.position = "none")))
+    output$sirCumulativeState <- renderPlotly({
+        dataplots = sir_plot()
+        print(dataplots)
+        })
     
     stateForCounties <- reactive({cumulativeState$county.x %>%
           filter(state.x == input$state4Counties)})

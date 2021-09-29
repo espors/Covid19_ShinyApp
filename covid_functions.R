@@ -32,9 +32,9 @@ us_rates <- function(state_covid, us_population){
   covid_matrix <- left_join(date_matrix, us_covid, by = c("date"))
   covid_matrix[,c("cases", "deaths")] <- na_replace(covid_matrix[,c("cases", "deaths")], 0)
   
-  covid_matrix$cases = covid_matrix$cases/covid_matrix$population * 100000
+  covid_matrix$cases = round(covid_matrix$cases/covid_matrix$population * 100000,2)
   
-  covid_matrix$deaths = covid_matrix$deaths/covid_matrix$population * 100000
+  covid_matrix$deaths = round(covid_matrix$deaths/covid_matrix$population * 100000,2)
   
   return(covid_matrix)
 }
@@ -46,8 +46,8 @@ cumulative_county <- function(county_covid, county_pop) {
   
   covid_matrix <- left_join(covid, county_pop, by = "fips")
   
-  covid_matrix$cases = covid_matrix$cases/covid_matrix$population * 100000
-  covid_matrix$deaths = covid_matrix$deaths/covid_matrix$population * 100000
+  covid_matrix$cases = round(covid_matrix$cases/covid_matrix$population * 100000,2)
+  covid_matrix$deaths = round(covid_matrix$deaths/covid_matrix$population * 100000,2)
   
   covid_matrix <- drop_na(covid_matrix)
   
@@ -62,8 +62,8 @@ cumulative_state <- function(state_covid, state_pop) {
 
   covid_matrix <- left_join(covid, state_pop, by = "fips")
   
-  covid_matrix$cases = covid_matrix$cases/covid_matrix$population * 100000
-  covid_matrix$deaths = covid_matrix$deaths/covid_matrix$population * 100000
+  covid_matrix$cases = round(covid_matrix$cases/covid_matrix$population * 100000,2)
+  covid_matrix$deaths = round(covid_matrix$deaths/covid_matrix$population * 100000,2)
   return(covid_matrix)
 }
 
@@ -76,8 +76,8 @@ cumulative_us <- function(state_covid, us_pop) {
   
   covid_matrix <- crossing(covid, us_pop)
   
-  covid_matrix$caseRate <- covid_matrix$cases/covid_matrix$population * 100000
-  covid_matrix$deathRate <- covid_matrix$deaths/covid_matrix$population * 100000
+  covid_matrix$caseRate <- round(covid_matrix$cases/covid_matrix$population * 100000,2)
+  covid_matrix$deathRate <- round(covid_matrix$deaths/covid_matrix$population * 100000,2)
   
   return(covid_matrix)
 }
@@ -88,13 +88,13 @@ sir_counties <- function(cumu_county, cumu_state){
   a = 0.05 
   m = length(cumu_county$cases)
   
-  sir_df$sir <- sir_df$cases.x/sir_df$cases.y
-  sir_df$lsir <- (qchisq(a/(2*m), df = (2*sir_df$cases.x)))/(2*sir_df$cases.y)
-  sir_df$usir <- (qchisq(a/(2*m), df = (2*sir_df$cases.x),lower.tail = FALSE))/(2*sir_df$cases.y)
+  sir_df$sir <- round(sir_df$cases.x/sir_df$cases.y, 2) 
+  sir_df$lsir <- round((qchisq(a/(2*m), df = (2*sir_df$cases.x)))/(2*sir_df$cases.y),2) 
+  sir_df$usir <- round((qchisq(a/(2*m), df = (2*sir_df$cases.x),lower.tail = FALSE))/(2*sir_df$cases.y),2)
   
-  sir_df$sdr <- sir_df$deaths.x/sir_df$deaths.y
-  sir_df$lsdr <- (qchisq(a/(2*m), df = (2*sir_df$deaths.x)))/(2*sir_df$deaths.y)
-  sir_df$usdr <- (qchisq(a/(2*m), df = (2*sir_df$deaths.x),lower.tail = FALSE))/(2*sir_df$deaths.y)
+  sir_df$sdr <- round(sir_df$deaths.x/sir_df$deaths.y,2)
+  sir_df$lsdr <- round((qchisq(a/(2*m), df = (2*sir_df$deaths.x)))/(2*sir_df$deaths.y),2)
+  sir_df$usdr <- round((qchisq(a/(2*m), df = (2*sir_df$deaths.x),lower.tail = FALSE))/(2*sir_df$deaths.y),2)
   
   sir_df <- sir_df %>%
     mutate(typeC = case_when(sir > 1 ~ "More", 
@@ -120,9 +120,9 @@ sir_states <- function(cumu_state, cumu_us){
   a = 0.05 
   m = length(cumu_state$cases)
   
-  sir_df$sir <- sir_df$cases/sir_df$caseRate
-  sir_df$lsir <- (qchisq(a/(2*m), df = (2*sir_df$cases)))/(2*sir_df$caseRate)
-  sir_df$usir <- (qchisq(a/(2*m), df = (2*sir_df$cases),lower.tail = FALSE))/(2*sir_df$caseRate)
+  sir_df$sir <- round(sir_df$cases/sir_df$caseRate,2)
+  sir_df$lsir <- round((qchisq(a/(2*m), df = (2*sir_df$cases)))/(2*sir_df$caseRate),2)
+  sir_df$usir <- round((qchisq(a/(2*m), df = (2*sir_df$cases),lower.tail = FALSE))/(2*sir_df$caseRate),2)
 
   sir_df$sdr <- sir_df$deaths/sir_df$deathRate
   sir_df$lsdr <- (qchisq(a/(2*m), df = (2*sir_df$deaths)))/(2*sir_df$deathRate)
