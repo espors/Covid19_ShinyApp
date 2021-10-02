@@ -8,6 +8,8 @@ library(plotly)
 source("covid_functions.r")
 reactiveConsole(TRUE)
 
+
+#--------------Static Information-----------------
 #read in data -- static 
 #covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
 #covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
@@ -73,7 +75,8 @@ custom <- c("lightslategrey", "darkslategrey")
 ui <- fluidPage(
     titlePanel("COVID-19: An Overview in the United States"),
     tabsetPanel(
-        
+            
+            #----------TAB: United States-----------------
             #information on the US -- cases and deaths choropleth  map, total cases and deaths, total cases and deaths per 100,000
         tabPanel("United States",
                  fluidRow(
@@ -110,6 +113,7 @@ ui <- fluidPage(
     
         ), 
         
+            #------------TAB: States------------------------------------
             #information on states, select states, select outcomes, time series map, sir graph 
         tabPanel("States", 
                  fluidRow(
@@ -152,6 +156,7 @@ ui <- fluidPage(
                  )
                  ), 
         
+            #---------TAB: Counties------------------------------------
             #information on counties, select one state, select countites, select outcome, time series plot, sir graph 
         tabPanel("Counties",
                  fluidRow(
@@ -159,15 +164,15 @@ ui <- fluidPage(
                              selectInput(inputId = "state4Counties", 
                                          label = "Select State", 
                                          choices = cumulativeStates$state.x, multiple = FALSE, 
-                                         selected = "Arizona"),
+                                         selected = "South Dakota"),
                             uiOutput("counties"), 
                             selectInput(inputId = "c_d", 
                                         label = "Select Outcome", 
                                         choices = c("Cases" = 1, "Deaths" = 0), 
                                         selected = "Cases")
                      ), 
-                     column(9
-                            #plotlyOutput("mapCumulativeState")
+                     column(9,
+                            plotlyOutput("mapTsCounty")
                      )),
                  fluidRow(
                      column(3, 
@@ -191,7 +196,26 @@ ui <- fluidPage(
                      
                  )), 
         
-        tabPanel("Data and Methodology")
+            #--------TAB: Data and Methods--------------------
+        tabPanel("Data and Methodology",
+                 fluidRow(
+                     column(6,
+                            h2("Data Sources", align = "center"),
+                            h4("COVID-19 Data"),
+                            h6("The COVID-19 data was taken from The New York Times Git-Hub page, https://github.com/nytimes/covid-19-data. 
+                               The data included the daily cumulative number of cases and deaths reported in each county and state as reported by local health agencies
+                               since the beginning of the pandemic in the United States, January 21, 2020. The counts are updated each day and relect the final numbers as 
+                               reported from the previous day."), 
+                            h4("Population Data"), 
+                            h6("The population data by states and counties was provided by the United State Census Bureau based on 2019 estimates.")
+                            ), 
+                     column(6,
+                            h2("Methodology", align = "center"),
+                            h4("Age-adjustment"),
+                            h4("SIR Values")
+                            
+                            )
+                 ))
     )
 )
 
@@ -283,7 +307,8 @@ server <- function(input, output) {
         selectInput(inputId = "choose_counties", 
                     label = "Select Counties", 
                     choices = cumulativeCounties[cumulativeCounties$state.x == input$state4Counties, "county.x"], 
-                    multiple = TRUE)
+                    multiple = TRUE, 
+                    selected = "Brookings")
                     
     })
     
@@ -319,6 +344,42 @@ server <- function(input, output) {
             dataplots = sirC_plot()
             print(dataplots)
     })
+    
+    
+        #--------~PLOT: County time series--------------------
+    
+    #filter daily counts for time series plot 
+    tsCounty <- reactive({covidCounties %>%
+                               filter(county.x == input$choose_counties)})
+    
+    
+    
+    tsC_plot <- reactive({
+        if (input$c_d == 1) return(ggplotly(ggplot(data = tsCounty(),
+                                                            aes(x = date)) +
+                                                         geom_line(aes(y = cases), size = 0.75) +
+                                                         labs(title = "Cumulative cases per 100,000 by selected counties", color = "County")+
+                                                         xlab("Date") + 
+                                                         ylab("Cumulative cases per 100,000") + 
+                                                         theme_minimal() 
+                                                     
+        ))
+        if (input$c_d == 0) return(ggplotly(ggplot(data = tsCounty(),
+                                                            aes(x = date)) +
+                                                         geom_line(aes(y = deaths, color = county.x), size = 0.75) +
+                                                         labs(title = "Cumulative deaths per 100,000 by selected counties", color = "County") + 
+                                                         xlab("Date") + 
+                                                         ylab("Cumulative deaths per 100,000") + 
+                                                         theme_minimal()))
+    })
+    
+    output$mapTsCounty <- renderPlotly({
+        dataplots = tsC_plot()
+        print(dataplots)
+    })
+    
+   
+    
 }
 
 # Run the application 
