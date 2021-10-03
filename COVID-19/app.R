@@ -5,6 +5,7 @@ library(lubridate)
 library(imputeTS)
 library(car)
 library(plotly)
+library(RSelenium)
 source("covid_functions.r")
 reactiveConsole(TRUE)
 
@@ -172,7 +173,8 @@ ui <- fluidPage(
                                         selected = "Cases")
                      ), 
                      column(9,
-                            plotlyOutput("mapTsCounty")
+                            plotlyOutput("mapTsCounty") 
+                           
                      )),
                  fluidRow(
                      column(3, 
@@ -235,11 +237,11 @@ server <- function(input, output) {
     
         #filter daily counts for time series plot 
     covidState <- reactive(covidStates %>%
-         filter(state.x == input$state))
+         filter(state.x %in% input$state))
  
         #filter cumulative counts for SIR values 
     cumulativeState <-  reactive({cumulativeStates %>%
-         filter(state.x == input$state)})
+         filter(state.x %in% input$state)})
         
         #create SIR values from all states 
     sirStates <- sir_states(cumulativeStates, cumulativeUS)
@@ -252,7 +254,8 @@ server <- function(input, output) {
                                                          labs(title = "Cumulative cases per 100,000 by selected state", color = "State")+
                                                          xlab("Date") + 
                                                          ylab("Cumulative cases per 100,000") + 
-                                                         theme_minimal() 
+                                                         theme_minimal() + 
+                                                         scale_color_brewer(palette = "Spectral") 
                                                      
         ))
         if (input$cases_deaths == 0) return(ggplotly(ggplot(data = covidState(),
@@ -261,13 +264,16 @@ server <- function(input, output) {
                                                          labs(title = "Cumulative deaths per 100,000 by selected state", color = "State") + 
                                                          xlab("Date") + 
                                                          ylab("Cumulative deaths per 100,000") + 
-                                                         theme_minimal()))
+                                                         theme_minimal() + 
+                                                         scale_color_brewer(palette = "Spectral")))
     })
     
     output$mapTsState <- renderPlotly({
         dataplots = ts_plot()
         print(dataplots)
     })
+    
+    
     
 
         #--------~PLOT: State sir values----------------------
@@ -306,9 +312,9 @@ server <- function(input, output) {
     output$counties <- renderUI({
         selectInput(inputId = "choose_counties", 
                     label = "Select Counties", 
-                    choices = cumulativeCounties[cumulativeCounties$state.x == input$state4Counties, "county.x"], 
+                    choices = cumulativeCounties[cumulativeCounties$state.x == input$state4Counties, "county.y"], 
                     multiple = TRUE, 
-                    selected = "Brookings")
+                    selected = "Brookings County")
                     
     })
     
@@ -349,19 +355,23 @@ server <- function(input, output) {
         #--------~PLOT: County time series--------------------
     
     #filter daily counts for time series plot 
-    tsCounty <- reactive({covidCounties %>%
-                               filter(county.x == input$choose_counties)})
+    # tsCounty <- reactive({covidCounties %>%
+    #         dplyr::filter(county.x %in% input$choose_counties)})
     
+    tsCounty <- reactive({covidCounties %>%
+            dplyr::filter(state.x %in% input$state4Counties) %>%
+            dplyr::filter(county.x %in% input$choose_counties)})
     
     
     tsC_plot <- reactive({
         if (input$c_d == 1) return(ggplotly(ggplot(data = tsCounty(),
                                                             aes(x = date)) +
-                                                         geom_line(aes(y = cases), size = 0.75) +
+                                                geom_line(aes(y = cases, color = county.x), size = 0.75) +
                                                          labs(title = "Cumulative cases per 100,000 by selected counties", color = "County")+
-                                                         xlab("Date") + 
-                                                         ylab("Cumulative cases per 100,000") + 
-                                                         theme_minimal() 
+                                                         xlab("Date") +
+                                                         ylab("Cumulative cases per 100,000") +
+                                                         theme_minimal() + 
+                                                scale_color_brewer(palette = "Spectral")
                                                      
         ))
         if (input$c_d == 0) return(ggplotly(ggplot(data = tsCounty(),
@@ -370,7 +380,8 @@ server <- function(input, output) {
                                                          labs(title = "Cumulative deaths per 100,000 by selected counties", color = "County") + 
                                                          xlab("Date") + 
                                                          ylab("Cumulative deaths per 100,000") + 
-                                                         theme_minimal()))
+                                                         theme_minimal()+ 
+                                                scale_color_brewer(palette = "Spectral")))
     })
     
     output$mapTsCounty <- renderPlotly({
