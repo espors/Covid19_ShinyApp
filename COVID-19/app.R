@@ -6,6 +6,7 @@ library(imputeTS)
 library(car)
 library(plotly)
 library(RSelenium)
+library(shinysky)
 source("covid_functions.r")
 reactiveConsole(TRUE)
 
@@ -74,12 +75,15 @@ custom <- c("lightslategrey", "darkslategrey")
 
 
 ui <- fluidPage(
-    titlePanel("COVID-19: An Overview in the United States"),
+    titlePanel(wellPanel(tags$h1("COVID-19: An Overview in the United States"), style = "background: #aec3b0")),
+    busyIndicator(text = "Please wait ... ", wait = 0),
+    includeCSS("www/colorTheme.css"),
+    
     tabsetPanel(
             
             #----------TAB: United States-----------------
             #information on the US -- cases and deaths choropleth  map, total cases and deaths, total cases and deaths per 100,000
-        tabPanel("United States",
+        tabPanel(h3("United States"),
                  fluidRow(
                      h3("Maps are worth a 1,000 words..."),
                      column(6,
@@ -109,25 +113,33 @@ ui <- fluidPage(
                             h5("Cumulative Deaths\nPer 100,000 in the US", align = 'center'),
                             h4(verbatimTextOutput("cumuDeaths"), align = 'right')
                      )
-                 )
+                 ), 
+                 fluidRow(
+                     wellPanel(style = "background: #aec3b0",
+                     h4("For accurate information on the COVID-19 pandemic, please visit the website of your local health department or government resource,
+                        such the CDC.", align = "center"),
+                     tags$a(href = "https://www.cdc.gov/coronavirus/2019-ncov/index.html", tags$h4(tags$u("CDC.gov: COVID-19"), style = "color: blue"), align = "center"),
+                     h4("Use the following link to find the nearest COVID-19 vaccination provider.", align = "center"),
+                     tags$a(href = "https://www.vaccines.gov/", tags$h4(tags$u("Vaccines.gov"), style = "color: blue"), align = "center")
+                 ))
     
     
         ), 
         
             #------------TAB: States------------------------------------
             #information on states, select states, select outcomes, time series map, sir graph 
-        tabPanel("States", 
+        tabPanel(h3("States"), 
                  fluidRow(
-                     column(3, 
+                     column(3,
                                 #get input for time series map 
                             selectInput(inputId = "state", 
-                                        label = "Select State(s)", 
+                                        label = tags$h5("Select State(s)"), 
                                         choices = cumulativeStates$state.x, 
                                         multiple = TRUE, 
                                         selected = "South Dakota"),
                                 #get input for outcome type 
                             selectInput(inputId = "cases_deaths", 
-                                        label = "Select Outcome", 
+                                        label = tags$h5("Select Outcome"), 
                                         choices = c("Cases" = 1, "Deaths" = 0), 
                                         selected = "Cases")
                             ), 
@@ -139,7 +151,7 @@ ui <- fluidPage(
                                 #?? better way to do this ??
                             h4("What are Standardized incidence ratios?"),
                             tags$br(), 
-                            h5("Standarized incidence ratios compared the observed value to the expected
+                            tags$p("Standarized incidence ratios compared the observed value to the expected
                                value, based on a reference population. For this, the observed value was
                                the cumulative rate per 100,000 and the expected value was the cumulative 
                                rate per 100,000 in the United States. Values that are greater than one 
@@ -159,16 +171,16 @@ ui <- fluidPage(
         
             #---------TAB: Counties------------------------------------
             #information on counties, select one state, select countites, select outcome, time series plot, sir graph 
-        tabPanel("Counties",
+        tabPanel(h3("Counties"),
                  fluidRow(
                      column(3, 
                              selectInput(inputId = "state4Counties", 
-                                         label = "Select State", 
+                                         label = tags$h5("Select State"), 
                                          choices = cumulativeStates$state.x, multiple = FALSE, 
                                          selected = "South Dakota"),
                             uiOutput("counties"), 
                             selectInput(inputId = "c_d", 
-                                        label = "Select Outcome", 
+                                        label = tags$h5("Select Outcome"), 
                                         choices = c("Cases" = 1, "Deaths" = 0), 
                                         selected = "Cases")
                      ), 
@@ -181,7 +193,7 @@ ui <- fluidPage(
                             #?? better way to do this ??
                             h4("What are Standardized incidence ratios?"),
                             tags$br(), 
-                            h5("Standarized incidence ratios compared the observed value to the expected
+                            tags$p("Standarized incidence ratios compared the observed value to the expected
                                value, based on a reference population. For this, the observed value was
                                the cumulative rate per 100,000 and the expected value was the cumulative 
                                rate per 100,000 in the United States. Values that are greater than one 
@@ -199,12 +211,12 @@ ui <- fluidPage(
                  )), 
         
             #--------TAB: Data and Methods--------------------
-        tabPanel("Data and Methodology",
+        tabPanel(h3("Data and Methodology"),
                  fluidRow(
                      column(6,
                             h2("Data Sources", align = "center"),
                             h4("COVID-19 Data"),
-                            h6("The COVID-19 data was taken from The New York Times Git-Hub page, https://github.com/nytimes/covid-19-data. 
+                            tags$p("The COVID-19 data was taken from The New York Times Git-Hub page, https://github.com/nytimes/covid-19-data. 
                                The data included the daily cumulative number of cases and deaths reported in each county and state as reported by local health agencies
                                since the beginning of the pandemic in the United States, January 21, 2020. The counts are updated each day and relect the final numbers as 
                                reported from the previous day."), 
@@ -251,7 +263,7 @@ server <- function(input, output) {
         if (input$cases_deaths == 1) return(ggplotly(ggplot(data = covidState(),
                                                             aes(x = date)) +
                                                          geom_line(aes(y = cases, color = state.x), size = 0.75) +
-                                                         labs(title = "Cumulative cases per 100,000 by selected state", color = "State")+
+                                                         labs(title = tags$h3("Cumulative cases per 100,000 by selected state"), color = "State")+
                                                          xlab("Date") + 
                                                          ylab("Cumulative cases per 100,000") + 
                                                          theme_minimal() + 
