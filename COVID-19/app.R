@@ -19,6 +19,15 @@ reactiveConsole(TRUE)
 covid_counties <- read_csv("covid_counties.csv")
 covid_states <- read_csv("covid_states.csv")
 
+covid_states <- covid_states %>%
+    filter(state != 'American Samoa' & 
+               state != 'Northern Mariana Islands' & 
+               state != 'Virgin Islands' & 
+               state != 'Puerto Rico' & 
+               state != 'Guam')
+
+
+
 county_population <- read_csv("county_population.csv")
 state_population <- read_csv("state_population.csv")
 united_states_pop <- read_csv("united_states_pop.csv")

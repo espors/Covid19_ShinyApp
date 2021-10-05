@@ -1,6 +1,8 @@
 
 
 covid_rates <- function(covid_data, population){
+  covid_data <- covid_data %>%
+    filter(state != 'American Somoa')
   earliest <- min(covid_data$date)
   latest <- max(covid_data$date)
   dates <- as.data.frame(as_date(earliest:latest))
@@ -110,6 +112,7 @@ sir_counties <- function(cumu_county, cumu_state){
 
 
 sir_states <- function(cumu_state, cumu_us){
+  
   cumu_us <- cumu_us %>%
     select(caseRate, deathRate)
   
