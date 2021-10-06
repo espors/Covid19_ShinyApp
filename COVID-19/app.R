@@ -13,8 +13,8 @@ reactiveConsole(TRUE)
 
 #--------------Static Information-----------------
 #read in data -- static 
-#covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
-#covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
+# covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
+# covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
 
 covid_counties <- read_csv("covid_counties.csv")
 covid_states <- read_csv("covid_states.csv")
@@ -85,6 +85,7 @@ custom <- c("lightslategrey", "darkslategrey")
 
 ui <- fluidPage(
     titlePanel(wellPanel(tags$h1("COVID-19: An Overview in the United States"), style = "background: #aec3b0")),
+    h4(textOutput("dates")),
     busyIndicator(text = "Please wait ... ", wait = 0),
     includeCSS("www/colorTheme.css"),
     
@@ -158,8 +159,11 @@ ui <- fluidPage(
                  fluidRow(
                      column(3, 
                                 #?? better way to do this ??
-                            h4("What are Standardized incidence ratios?"),
+                            wellPanel(style = "background: #aec3b0",
+                                h4("What are Standardized incidence ratios?")
+                                   ),
                             tags$br(), 
+                            
                             tags$p("Standarized incidence ratios compared the observed value to the expected
                                value, based on a reference population. For this, the observed value was
                                the cumulative rate per 100,000 and the expected value was the cumulative 
@@ -199,8 +203,10 @@ ui <- fluidPage(
                      )),
                  fluidRow(
                      column(3, 
-                            #?? better way to do this ??
-                            h4("What are Standardized incidence ratios?"),
+                            
+                            wellPanel(style = "background: #aec3b0",
+                                      h4("What are Standardized incidence ratios?")
+                            ),
                             tags$br(), 
                             tags$p("Standarized incidence ratios compared the observed value to the expected
                                value, based on a reference population. For this, the observed value was
@@ -245,6 +251,11 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
     
+   
+    output$dates <- renderText({
+        paste("   From", format(min(covidStates$date), format="%B %d %Y"), "to", format(max(covidStates$date), format="%B %d %Y"))
+    })
+        
     #----------TAB: United States------------------------------------
     output$rawCases <- renderText({cumulativeUS$cases})
     output$cumuCases <- renderText({round(cumulativeUS$caseRate,0)})
