@@ -13,8 +13,8 @@ reactiveConsole(TRUE)
 
 #--------------Static Information-----------------
 #read in data -- static 
-# covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
-# covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
+#covid_counties <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv")
+#covid_states <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
 
 covid_counties <- read_csv("covid_counties.csv")
 covid_states <- read_csv("covid_states.csv")
@@ -66,17 +66,6 @@ mapBaseStates <- ggplot(data = state, mapping = aes(x = long, y = lat, group = g
           plot.background=element_blank(), 
           legend.position = 'none')
 
-mapStatesCases <- mapBaseStates + 
-    geom_polygon(data = states, aes(fill = cases), color = "white") + 
-    scale_fill_gradient(low = "white", high = "darkolivegreen4")
-
-mapStatesCases <- ggplotly(mapStatesCases)
-
-mapStatesDeaths <- mapBaseStates + 
-    geom_polygon(data = states, aes(fill = deaths), color = "white") + 
-    scale_fill_gradient(low = "white", high = "darkblue")
-
-mapStatesDeaths <- ggplotly(mapStatesDeaths)
 
 #formatting settings -- static 
 dodge <- position_dodge(width = 0.9)
@@ -85,6 +74,7 @@ custom <- c("lightslategrey", "darkslategrey")
 
 ui <- fluidPage(
     titlePanel(wellPanel(tags$h1("COVID-19: An Overview in the United States"), style = "background: #aec3b0")),
+    
     h4(textOutput("dates")),
     busyIndicator(text = "Please wait ... ", wait = 0),
     includeCSS("www/colorTheme.css"),
@@ -164,15 +154,16 @@ ui <- fluidPage(
                                    ),
                             tags$br(), 
                             
-                            tags$p("Standarized incidence ratios compared the observed value to the expected
-                               value, based on a reference population. For this, the observed value was
-                               the cumulative rate per 100,000 and the expected value was the cumulative 
-                               rate per 100,000 in the United States. Values that are greater than one 
-                               indicate that that state saw a higher rate of a particular outcome than expected. 
-                               Values that are less than one indicate the that state saw a lower rate
-                               of a particular out than expected. For ease of intpretation, the values are 
-                               presented as 1-SIR. If a confidence interval contains zero, then that 
-                               state is not significantly different than expected.")
+                            tags$p("Standardized incidence ratios compare the observed value to the expected value
+                               based on a reference population. For this plot, the observed value for each state 
+                               was the cumulative rate per 100,000 for that state and the expected value was the 
+                               cumulative rate per 100,000 in the United States overall. Values that are close to 
+                               one had a rate that was close to expected. For ease of interpretation, the SIR values
+                               are presented as SIR-1, so values that are close to zero are close to expected, 
+                               positive values indicate that that state had a higher rate than expected, and 
+                               negative values indicate that that state had a lower rate than expected. If a confidence 
+                               interval does not contain zero, that state had an SIR value that is significantly 
+                               different from zero.")
                             
                             ), 
                      column(9, 
@@ -208,15 +199,16 @@ ui <- fluidPage(
                                       h4("What are Standardized incidence ratios?")
                             ),
                             tags$br(), 
-                            tags$p("Standarized incidence ratios compared the observed value to the expected
-                               value, based on a reference population. For this, the observed value was
-                               the cumulative rate per 100,000 and the expected value was the cumulative 
-                               rate per 100,000 in the United States. Values that are greater than one 
-                               indicate that that state saw a higher rate of a particular outcome than expected. 
-                               Values that are less than one indicate the that state saw a lower rate
-                               of a particular out than expected. For ease of intpretation, the values are 
-                               presented as 1-SIR. If a confidence interval contains zero, then that 
-                               state is not significantly different than expected.")
+                            tags$p("Standardized incidence ratios compare the observed value to the expected value
+                               based on a reference population. For this plot, the observed value for each county 
+                               was the cumulative rate per 100,000 for that county and the expected value was the 
+                               cumulative rate per 100,000 for the county's state overall. Values that are close to 
+                               one had a rate that was close to expected. For ease of interpretation, the SIR values
+                               are presented as SIR-1, so values that are close to zero are close to expected, 
+                               positive values indicate that that county had a higher rate than expected, and 
+                               negative values indicate that that county had a lower rate than expected. If a confidence 
+                               interval does not contain zero, that county had an SIR value that is significantly 
+                               different from zero.")
                             
                      ), 
                      column(9, 
@@ -234,13 +226,15 @@ ui <- fluidPage(
                             tags$p("The COVID-19 data was taken from The New York Times Git-Hub page, https://github.com/nytimes/covid-19-data. 
                                The data included the daily cumulative number of cases and deaths reported in each county and state as reported by local health agencies
                                since the beginning of the pandemic in the United States, January 21, 2020. The counts are updated each day and relect the final numbers as 
-                               reported from the previous day."), 
+                               reported from the previous day. Please see their GitHub page for further information about data reporting."), 
                             h4("Population Data"), 
-                            h6("The population data by states and counties was provided by the United State Census Bureau based on 2019 estimates.")
+                            tags$p("The population data by states and counties was provided by the United State Census Bureau based on 2019 estimates of the 2010 Census.")
                             ), 
                      column(6,
                             h2("Methodology", align = "center"),
-                            h4("Age-adjustment"),
+                            h4("Population Adjustment"),
+                            tags$p("The data was prepared using a simple population adjustment. That is the cumulative count per day was divided by the population of the county/state and 
+                            multiplied by 100,000. No other data adjustments were made before plotting or creating SIR values."),  
                             h4("SIR Values")
                             
                             )
@@ -251,12 +245,26 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
     
-   
     output$dates <- renderText({
         paste("   From", format(min(covidStates$date), format="%B %d %Y"), "to", format(max(covidStates$date), format="%B %d %Y"))
     })
+    
+    
         
     #----------TAB: United States------------------------------------
+    
+    mapStatesCases <- mapBaseStates + 
+        geom_polygon(data = states, aes(fill = cases), color = "white") + 
+        scale_fill_gradient(low = "white", high = "darkolivegreen4")
+    
+    mapStatesCases <- ggplotly(mapStatesCases)
+    
+    mapStatesDeaths <- mapBaseStates + 
+        geom_polygon(data = states, aes(fill = deaths), color = "white") + 
+        scale_fill_gradient(low = "white", high = "darkblue")
+    
+    mapStatesDeaths <- ggplotly(mapStatesDeaths)
+    
     output$rawCases <- renderText({cumulativeUS$cases})
     output$cumuCases <- renderText({round(cumulativeUS$caseRate,0)})
     output$rawDeaths <- renderText({cumulativeUS$deaths})
@@ -268,8 +276,9 @@ server <- function(input, output) {
     #--------TAB: States--------------------------------------------
     
         #filter daily counts for time series plot 
-    covidState <- reactive(covidStates %>%
-         filter(state.x %in% input$state))
+    covidState <- reactive({
+            covidStates %>%
+         filter(state.x %in% input$state)})
  
         #filter cumulative counts for SIR values 
     cumulativeState <-  reactive({cumulativeStates %>%
@@ -280,6 +289,8 @@ server <- function(input, output) {
     
         #---------~PLOT: State time series-------------------------
     ts_plot <- reactive({
+        
+        
         if (input$cases_deaths == 1) return(ggplotly(ggplot(data = covidState(),
                                                             aes(x = date)) +
                                                          geom_line(aes(y = cases, color = state.x), size = 0.75) +
@@ -342,6 +353,7 @@ server <- function(input, output) {
     
         #create select input that is based off of previous select input 
     output$counties <- renderUI({
+        
         selectInput(inputId = "choose_counties", 
                     label = "Select Counties", 
                     choices = cumulativeCounties[cumulativeCounties$state.x == input$state4Counties, "county.y"], 
@@ -351,11 +363,17 @@ server <- function(input, output) {
     })
     
     
-    sirCounties <- reactive({sir_counties(cumulativeCounties[cumulativeCounties$state.x == input$state4Counties,], 
+    sirCounties <- reactive({
+        
+        sir_counties(cumulativeCounties[cumulativeCounties$state.x == input$state4Counties,], 
                                   cumulativeStates[cumulativeStates$state.x == input$state4Counties,])})
         
         #--------~PLOT: County sir values----------------
     sirC_plot <- reactive({
+        
+        
+        
+        
         if (input$c_d == 1) return(ggplotly(ggplot(data = sirCounties(), aes(y = (sir-1), x = reorder(county.x, sir), fill = typeC)) + 
                                                              geom_bar(stat = "identity", position = dodge) +
                                                              geom_errorbar(aes(ymax = (usir - 1), ymin = (lsir - 1)), position = dodge, width = 0.25) +
@@ -396,6 +414,11 @@ server <- function(input, output) {
     
     
     tsC_plot <- reactive({
+        
+        validate(
+            need(input$choose_counties != "", "Please select one or more counties")
+        )
+        
         if (input$c_d == 1) return(ggplotly(ggplot(data = tsCounty(),
                                                             aes(x = date)) +
                                                 geom_line(aes(y = cases, color = county.x), size = 0.75) +
